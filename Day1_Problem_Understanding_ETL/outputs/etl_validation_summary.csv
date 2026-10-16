@@ -1,0 +1,10 @@
+Table,Rows,Nulls,PK,PK_Unique
+Employee,600,0,Employee_ID,True
+Manager,24,0,Manager_ID,True
+Role,24,0,Role_ID,True
+Open_Position,14,0,Position_ID,True
+Training,1332,0,Training_ID,True
+Performance_Review,1199,0,Review_ID,True
+Skill_Assessment,2752,0,Assessment_ID,True
+Mobility_Application,240,0,Application_ID,True
+Mobility_Risk,600,0,Risk_ID,True

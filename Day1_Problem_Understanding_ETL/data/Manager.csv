@@ -1,0 +1,25 @@
+Manager_ID,Manager_Name,Department
+MGR001,Manager_1,Engineering
+MGR002,Manager_2,Engineering
+MGR003,Manager_3,Sales
+MGR004,Manager_4,Sales
+MGR005,Manager_5,Sales
+MGR006,Manager_6,Marketing
+MGR007,Manager_7,Marketing
+MGR008,Manager_8,Marketing
+MGR009,Manager_9,Finance
+MGR010,Manager_10,Finance
+MGR011,Manager_11,Finance
+MGR012,Manager_12,HR
+MGR013,Manager_13,HR
+MGR014,Manager_14,HR
+MGR015,Manager_15,Operations
+MGR016,Manager_16,Operations
+MGR017,Manager_17,Customer Support
+MGR018,Manager_18,Customer Support
+MGR019,Manager_19,Product
+MGR020,Manager_20,Product
+MGR021,Manager_21,Data & Analytics
+MGR022,Manager_22,Data & Analytics
+MGR023,Manager_23,Legal
+MGR024,Manager_24,Legal

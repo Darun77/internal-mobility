@@ -1,0 +1,601 @@
+Employee_ID,Employee_Name,Department,Designation,Avg_Proficiency,Proficiency_Std,Training_Count,Avg_Rating,Rating_Std,Readiness_Score,Risk_Category,Anomaly_Flag,Anomaly_Score,Is_Anomaly,Max_Zscore,Risk_Weight,Severity_Rank
+EMP0001,Employee_1,Customer Support,Team Lead,53.0,10.56,3.0,4.2,0.1,69.7,Medium,1,0.45,0,1.18,2,0.89
+EMP0002,Employee_2,Finance,Team Lead,61.33,31.94,5.0,2.85,0.07,81.6,Low,1,0.53,0,2.04,1,0.53
+EMP0003,Employee_3,Product,Senior Manager,50.17,16.02,2.0,3.83,0.25,52.9,Medium,1,0.42,0,1.48,2,0.84
+EMP0004,Employee_4,HR,Associate,44.6,16.89,3.0,3.93,0.25,56.2,Medium,1,0.45,0,2.06,2,0.91
+EMP0005,Employee_5,Customer Support,Associate,64.5,17.38,1.0,3.4,0.14,57.1,Medium,1,0.39,0,0.84,2,0.78
+EMP0006,Employee_6,Legal,Senior Manager,65.0,39.61,2.0,3.55,0.21,65.2,Medium,1,0.48,0,3.16,2,0.96
+EMP0007,Employee_7,Marketing,Manager,57.0,23.92,2.0,3.63,0.49,57.0,Medium,1,0.43,0,1.15,2,0.86
+EMP0008,Employee_8,Customer Support,Senior Associate,67.75,7.85,2.0,3.27,0.25,53.8,Medium,1,0.42,0,1.49,2,0.85
+EMP0009,Employee_9,Product,Team Lead,72.4,22.2,3.0,2.65,0.21,61.7,Medium,1,0.42,0,1.03,2,0.85
+EMP0010,Employee_10,HR,Associate,51.0,11.27,2.0,3.9,0.0,61.6,Medium,1,0.43,0,1.39,2,0.86
+EMP0011,Employee_11,Finance,Associate,69.83,33.45,4.0,3.2,0.0,63.4,Medium,1,0.48,0,2.26,2,0.97
+EMP0012,Employee_12,Product,Senior Associate,56.33,6.66,2.0,3.7,0.42,38.0,High,1,0.5,0,1.75,3,1.49
+EMP0013,Employee_13,Product,Senior Associate,58.17,23.74,1.0,3.77,0.06,65.2,Medium,1,0.42,0,0.84,2,0.83
+EMP0014,Employee_14,Marketing,Team Lead,70.75,18.25,2.0,3.7,0.14,98.1,Low,1,0.48,0,2.68,1,0.48
+EMP0015,Employee_15,Operations,Associate,54.2,30.57,4.0,2.9,0.28,59.4,Medium,1,0.49,0,1.84,2,0.98
+EMP0016,Employee_16,HR,Director,52.4,12.66,1.0,3.55,0.35,46.4,Medium,1,0.44,0,1.24,2,0.89
+EMP0017,Employee_17,Sales,Director,52.8,19.88,3.0,2.4,0.0,51.0,Medium,1,0.45,0,1.37,2,0.9
+EMP0018,Employee_18,Product,Team Lead,60.0,31.88,0.0,4.9,0.0,97.5,Low,-1,0.6,1,2.64,1,0.6
+EMP0019,Employee_19,Operations,Senior Associate,71.17,20.75,3.0,4.4,0.42,74.9,Low,1,0.44,0,1.33,1,0.44
+EMP0020,Employee_20,Sales,Senior Associate,59.5,18.14,5.0,3.5,0.0,4.7,High,-1,0.57,1,4.2,3,1.71
+EMP0021,Employee_21,HR,Manager,61.5,16.82,0.0,3.1,0.44,65.8,Medium,1,0.45,0,1.53,2,0.9
+EMP0022,Employee_22,Engineering,Team Lead,65.33,11.24,3.0,3.2,0.5,70.3,Low,1,0.43,0,1.18,1,0.43
+EMP0023,Employee_23,Legal,Associate,61.67,15.5,1.0,3.7,0.0,64.7,Medium,1,0.4,0,0.91,2,0.79
+EMP0024,Employee_24,Operations,Senior Manager,69.0,10.95,3.0,2.1,0.42,55.8,Medium,1,0.47,0,1.77,2,0.94
+EMP0025,Employee_25,Data & Analytics,Manager,59.8,16.35,0.0,3.8,0.0,66.2,Medium,1,0.44,0,1.53,2,0.88
+EMP0026,Employee_26,Engineering,Senior Manager,75.25,12.74,3.0,2.7,0.56,57.3,Medium,1,0.46,0,1.42,2,0.92
+EMP0027,Employee_27,Legal,Team Lead,85.8,11.14,4.0,4.1,0.0,76.3,Low,1,0.51,0,2.26,1,0.51
+EMP0028,Employee_28,Marketing,Team Lead,40.75,19.57,5.0,2.5,0.0,66.2,Medium,1,0.52,0,2.47,2,1.04
+EMP0029,Employee_29,Customer Support,Senior Associate,61.2,17.64,1.0,3.57,0.55,45.2,Medium,1,0.45,0,1.4,2,0.89
+EMP0030,Employee_30,Finance,Senior Manager,91.0,11.53,2.0,2.3,0.0,71.0,Low,1,0.52,0,2.81,1,0.52
+EMP0031,Employee_31,Data & Analytics,Manager,70.0,22.58,4.0,3.6,0.14,68.9,Medium,1,0.42,0,1.23,2,0.84
+EMP0032,Employee_32,Marketing,Associate,63.67,28.23,1.0,3.15,0.07,59.2,Medium,1,0.42,0,1.5,2,0.85
+EMP0033,Employee_33,HR,Associate,63.33,4.16,1.0,3.55,0.21,48.6,Medium,1,0.47,0,2.03,2,0.94
+EMP0034,Employee_34,Marketing,Senior Associate,45.8,24.72,1.0,2.73,0.42,45.9,Medium,1,0.49,0,1.94,2,0.99
+EMP0035,Employee_35,Customer Support,Manager,50.0,36.39,1.0,3.2,0.0,47.4,Medium,1,0.51,0,2.69,2,1.01
+EMP0036,Employee_36,HR,Director,68.17,14.46,4.0,4.3,0.0,85.9,Low,1,0.47,0,1.78,1,0.47
+EMP0037,Employee_37,Data & Analytics,Associate,66.67,26.79,1.0,2.4,0.0,45.6,Medium,1,0.45,0,1.37,2,0.9
+EMP0038,Employee_38,Customer Support,Team Lead,69.2,10.76,3.0,3.55,0.49,69.1,Medium,1,0.44,0,1.16,2,0.87
+EMP0039,Employee_39,Sales,Senior Associate,64.67,11.93,2.0,2.7,0.0,49.5,Medium,1,0.41,0,0.96,2,0.82
+EMP0040,Employee_40,Finance,Senior Manager,58.5,30.99,3.0,3.97,0.31,58.5,Medium,1,0.46,0,1.9,2,0.91
+EMP0041,Employee_41,Data & Analytics,Manager,84.6,12.72,4.0,3.07,0.21,81.9,Low,1,0.51,0,2.14,1,0.51
+EMP0042,Employee_42,Sales,Manager,55.33,15.7,1.0,4.1,0.0,57.3,Medium,1,0.42,0,0.94,2,0.84
+EMP0043,Employee_43,Legal,Senior Associate,69.0,18.0,0.0,3.9,0.14,65.5,Medium,1,0.45,0,1.53,2,0.89
+EMP0044,Employee_44,Data & Analytics,Senior Associate,56.67,4.51,1.0,4.33,0.42,55.8,Medium,1,0.49,0,1.98,2,0.98
+EMP0045,Employee_45,Legal,Associate,64.4,10.24,3.0,2.7,0.0,60.6,Medium,1,0.42,0,1.14,2,0.84
+EMP0046,Employee_46,HR,Associate,65.67,18.6,3.0,1.8,0.0,60.0,Medium,1,0.46,0,2.17,2,0.93
+EMP0047,Employee_47,Sales,Manager,67.17,24.78,4.0,2.17,0.38,68.4,Medium,1,0.48,0,1.68,2,0.96
+EMP0048,Employee_48,Finance,Manager,77.83,20.68,2.0,3.5,0.14,63.7,Medium,1,0.41,0,1.43,2,0.81
+EMP0049,Employee_49,Customer Support,Director,73.67,20.98,1.0,4.3,0.2,72.2,Low,1,0.43,0,1.2,1,0.43
+EMP0050,Employee_50,Product,Director,64.4,25.44,3.0,3.47,0.29,69.7,Medium,1,0.42,0,1.09,2,0.83
+EMP0051,Employee_51,Marketing,Team Lead,75.5,17.42,2.0,3.15,0.07,71.4,Low,1,0.41,0,1.18,1,0.41
+EMP0052,Employee_52,Engineering,Manager,50.67,12.22,3.0,3.9,0.57,60.4,Medium,1,0.46,0,1.46,2,0.93
+EMP0053,Employee_53,Finance,Senior Manager,77.25,14.45,3.0,2.83,0.25,69.0,Medium,1,0.42,0,1.37,2,0.85
+EMP0054,Employee_54,Sales,Manager,53.17,19.26,3.0,4.5,0.0,69.3,Medium,1,0.44,0,1.47,2,0.88
+EMP0055,Employee_55,Product,Associate,52.67,21.55,1.0,4.2,0.0,54.4,Medium,1,0.43,0,1.22,2,0.87
+EMP0056,Employee_56,Finance,Senior Associate,70.33,17.4,0.0,2.7,0.0,54.8,Medium,1,0.45,0,1.53,2,0.9
+EMP0057,Employee_57,Sales,Associate,86.33,19.5,0.0,2.5,0.0,61.3,Medium,1,0.51,0,2.32,2,1.03
+EMP0058,Employee_58,Operations,Senior Manager,67.2,28.89,1.0,2.77,0.38,49.6,Medium,1,0.45,0,1.59,2,0.91
+EMP0059,Employee_59,Operations,Team Lead,59.5,7.94,2.0,2.4,0.0,60.4,Medium,1,0.44,0,1.48,2,0.88
+EMP0060,Employee_60,Legal,Associate,82.25,16.74,1.0,2.8,0.0,63.5,Medium,1,0.45,0,1.89,2,0.9
+EMP0061,Employee_61,Finance,Team Lead,79.0,19.52,2.0,4.23,0.47,66.0,Medium,1,0.46,0,1.55,2,0.92
+EMP0062,Employee_62,Operations,Team Lead,51.67,14.87,2.0,3.95,0.07,54.2,Medium,1,0.42,0,1.32,2,0.85
+EMP0063,Employee_63,Sales,Senior Associate,57.0,32.91,5.0,2.5,0.0,67.6,Medium,1,0.53,0,2.18,2,1.05
+EMP0064,Employee_64,Legal,Associate,71.5,22.35,2.0,3.1,0.0,66.9,Medium,1,0.4,0,0.91,2,0.81
+EMP0065,Employee_65,Sales,Team Lead,63.67,10.07,3.0,2.83,0.4,69.2,Medium,1,0.43,0,1.16,2,0.86
+EMP0066,Employee_66,Legal,Senior Associate,61.83,18.3,2.0,3.95,0.07,60.5,Medium,1,0.4,0,0.73,2,0.79
+EMP0067,Employee_67,Finance,Manager,72.33,18.91,3.0,3.5,0.0,66.6,Medium,1,0.4,0,0.91,2,0.8
+EMP0068,Employee_68,Product,Senior Associate,87.0,15.21,2.0,4.9,0.0,93.7,Low,-1,0.57,1,2.39,1,0.57
+EMP0069,Employee_69,Customer Support,Manager,70.67,24.13,4.0,2.5,0.0,73.4,Low,1,0.47,0,1.23,1,0.47
+EMP0070,Employee_70,Data & Analytics,Team Lead,49.2,16.35,3.0,2.67,0.55,54.3,Medium,1,0.48,0,1.58,2,0.95
+EMP0071,Employee_71,Product,Team Lead,68.5,21.63,4.0,5.0,0.0,81.9,Low,1,0.5,0,2.14,1,0.5
+EMP0072,Employee_72,HR,Manager,61.0,13.9,2.0,3.5,0.0,71.3,Low,1,0.39,0,0.91,1,0.39
+EMP0073,Employee_73,Sales,Senior Associate,60.75,13.65,4.0,3.0,0.0,58.0,Medium,1,0.42,0,1.23,2,0.84
+EMP0074,Employee_74,HR,Associate,73.4,21.97,3.0,4.4,0.71,74.8,Low,1,0.5,0,2.05,1,0.5
+EMP0075,Employee_75,Product,Associate,71.0,9.54,2.0,2.95,0.07,62.9,Medium,1,0.42,0,1.24,2,0.84
+EMP0076,Employee_76,Legal,Manager,87.67,10.97,1.0,3.53,0.06,73.5,Low,1,0.5,0,2.46,1,0.5
+EMP0077,Employee_77,Data & Analytics,Team Lead,59.0,5.2,4.0,4.07,0.25,67.1,Medium,1,0.47,0,1.88,2,0.94
+EMP0078,Employee_78,Data & Analytics,Team Lead,41.33,18.5,1.0,3.97,0.38,50.3,Medium,1,0.49,0,2.41,2,0.98
+EMP0079,Employee_79,Engineering,Associate,62.8,15.83,0.0,3.5,0.28,53.3,Medium,1,0.43,0,1.53,2,0.86
+EMP0080,Employee_80,Data & Analytics,Associate,72.75,12.66,2.0,3.3,0.28,79.7,Low,1,0.44,0,1.33,1,0.44
+EMP0081,Employee_81,Customer Support,Associate,65.33,14.57,2.0,2.35,0.07,62.5,Medium,1,0.42,0,1.43,2,0.83
+EMP0082,Employee_82,Data & Analytics,Senior Associate,72.83,17.93,3.0,2.85,0.21,79.1,Low,1,0.43,0,1.28,1,0.43
+EMP0083,Employee_83,Product,Team Lead,76.0,18.97,1.0,3.4,0.56,60.3,Medium,1,0.44,0,1.42,2,0.88
+EMP0084,Employee_84,Engineering,Senior Associate,70.67,24.17,3.0,3.5,0.14,77.9,Low,1,0.43,0,1.19,1,0.43
+EMP0085,Employee_85,Product,Senior Associate,67.33,16.75,4.0,3.87,0.38,78.5,Low,1,0.44,0,1.24,1,0.44
+EMP0086,Employee_86,Product,Senior Manager,76.83,13.44,3.0,2.45,0.21,64.9,Medium,1,0.43,0,1.32,2,0.87
+EMP0087,Employee_87,Marketing,Senior Associate,68.33,15.68,1.0,2.33,0.21,54.1,Medium,1,0.43,0,1.46,2,0.85
+EMP0088,Employee_88,Engineering,Senior Associate,65.33,7.09,6.0,2.5,0.0,63.0,Medium,1,0.51,0,2.6,2,1.03
+EMP0089,Employee_89,Product,Manager,66.75,15.65,4.0,4.1,0.0,63.4,Medium,1,0.42,0,1.23,2,0.85
+EMP0090,Employee_90,Marketing,Senior Associate,51.83,16.79,2.0,4.3,0.0,57.1,Medium,1,0.43,0,1.3,2,0.85
+EMP0091,Employee_91,Marketing,Team Lead,68.0,12.77,1.0,4.2,0.0,66.0,Medium,1,0.42,0,1.06,2,0.83
+EMP0092,Employee_92,Engineering,Manager,57.6,26.88,3.0,3.63,0.38,65.0,Medium,1,0.43,0,1.3,2,0.85
+EMP0093,Employee_93,HR,Senior Manager,61.5,13.4,0.0,4.6,0.0,68.7,Medium,1,0.47,0,1.6,2,0.95
+EMP0094,Employee_94,Legal,Associate,69.0,17.73,1.0,4.15,0.35,68.8,Medium,1,0.43,0,0.99,2,0.85
+EMP0095,Employee_95,Customer Support,Senior Manager,55.67,30.62,2.0,2.6,0.26,57.8,Medium,1,0.46,0,1.85,2,0.93
+EMP0096,Employee_96,Legal,Senior Associate,74.25,2.22,0.0,3.5,0.0,53.7,Medium,1,0.51,0,2.32,2,1.03
+EMP0097,Employee_97,Data & Analytics,Associate,52.0,29.27,3.0,2.5,0.61,48.8,Medium,1,0.53,0,1.65,2,1.05
+EMP0098,Employee_98,Customer Support,Senior Associate,58.5,20.91,0.0,2.3,0.2,36.9,High,1,0.52,0,1.83,3,1.55
+EMP0099,Employee_99,Data & Analytics,Director,67.0,29.82,4.0,2.6,0.42,96.3,Low,1,0.53,0,2.55,1,0.53
+EMP0100,Employee_100,Product,Senior Associate,68.0,18.09,1.0,2.75,0.21,96.2,Low,1,0.48,0,2.54,1,0.48
+EMP0101,Employee_101,Sales,Senior Associate,64.5,20.59,2.0,3.7,0.4,67.4,Medium,1,0.41,0,0.76,2,0.81
+EMP0102,Employee_102,Engineering,Team Lead,62.17,21.29,4.0,2.3,0.0,65.7,Medium,1,0.45,0,1.5,2,0.9
+EMP0103,Employee_103,Customer Support,Associate,61.2,16.27,3.0,3.23,0.5,53.5,Medium,1,0.43,0,1.2,2,0.85
+EMP0104,Employee_104,Customer Support,Associate,61.2,32.69,2.0,4.6,0.0,60.3,Medium,1,0.47,0,2.15,2,0.94
+EMP0105,Employee_105,Product,Associate,53.2,19.28,1.0,3.9,0.28,57.4,Medium,1,0.42,0,1.16,2,0.83
+EMP0106,Employee_106,HR,Associate,77.33,20.43,2.0,2.4,0.0,59.5,Medium,1,0.43,0,1.37,2,0.86
+EMP0107,Employee_107,Marketing,Associate,75.8,16.99,3.0,2.2,0.0,74.7,Low,1,0.47,0,1.64,1,0.47
+EMP0108,Employee_108,Product,Associate,36.33,27.43,2.0,3.85,0.21,55.9,Medium,1,0.49,0,2.93,2,0.98
+EMP0109,Employee_109,Operations,Team Lead,35.0,22.03,2.0,3.6,0.0,42.6,High,1,0.52,0,3.07,3,1.55
+EMP0110,Employee_110,Marketing,Associate,58.0,31.08,2.0,4.2,0.36,50.0,Medium,1,0.47,0,1.91,2,0.95
+EMP0111,Employee_111,Engineering,Senior Associate,56.2,16.81,1.0,3.3,0.14,53.4,Medium,1,0.41,0,0.85,2,0.81
+EMP0112,Employee_112,Marketing,Manager,48.75,11.32,4.0,2.9,0.0,60.5,Medium,1,0.46,0,1.63,2,0.93
+EMP0113,Employee_113,HR,Senior Associate,63.75,33.76,1.0,3.25,0.07,55.5,Medium,1,0.46,0,2.31,2,0.92
+EMP0114,Employee_114,Marketing,Team Lead,59.4,22.94,2.0,3.75,0.07,58.9,Medium,1,0.4,0,0.72,2,0.8
+EMP0115,Employee_115,Engineering,Associate,84.33,17.79,0.0,2.8,0.85,60.7,Medium,-1,0.57,1,2.64,2,1.14
+EMP0116,Employee_116,HR,Associate,84.67,8.5,4.0,3.43,0.31,71.0,Low,1,0.5,0,2.14,1,0.5
+EMP0117,Employee_117,Legal,Associate,61.5,13.08,0.0,3.1,0.85,46.2,Medium,1,0.54,0,2.64,2,1.08
+EMP0118,Employee_118,Customer Support,Associate,68.4,5.18,5.0,4.13,0.57,75.9,Low,-1,0.54,1,1.91,1,0.54
+EMP0119,Employee_119,Customer Support,Associate,55.75,13.15,2.0,2.07,0.31,48.8,Medium,1,0.46,0,1.81,2,0.92
+EMP0120,Employee_120,Data & Analytics,Associate,63.17,22.36,4.0,3.9,0.0,68.3,Medium,1,0.42,0,1.23,2,0.84
+EMP0121,Employee_121,Legal,Associate,72.33,19.72,6.0,3.85,0.35,82.1,Low,1,0.51,0,2.6,1,0.51
+EMP0122,Employee_122,Legal,Associate,80.75,21.23,1.0,2.6,0.28,58.4,Medium,1,0.45,0,1.73,2,0.91
+EMP0123,Employee_123,Marketing,Senior Associate,69.33,27.02,1.0,4.4,0.57,76.4,Low,1,0.49,0,1.46,1,0.49
+EMP0124,Employee_124,Customer Support,Associate,50.6,28.17,1.0,3.37,0.85,45.7,Medium,-1,0.55,1,2.65,2,1.1
+EMP0125,Employee_125,Engineering,Senior Associate,65.0,27.87,1.0,3.0,0.36,59.7,Medium,1,0.43,0,1.44,2,0.85
+EMP0126,Employee_126,Finance,Senior Associate,77.0,5.29,1.0,3.05,0.64,48.5,Medium,1,0.52,0,1.87,2,1.03
+EMP0127,Employee_127,Finance,Team Lead,76.0,14.21,2.0,3.9,0.0,76.9,Low,1,0.43,0,1.23,1,0.43
+EMP0128,Employee_128,HR,Associate,52.6,11.28,3.0,2.47,0.45,48.4,Medium,1,0.47,0,1.28,2,0.94
+EMP0129,Employee_129,Customer Support,Manager,72.2,16.62,1.0,3.5,0.0,68.4,Medium,1,0.41,0,0.91,2,0.82
+EMP0130,Employee_130,Customer Support,Team Lead,62.25,14.52,1.0,1.7,0.57,47.4,Medium,1,0.51,0,2.31,2,1.02
+EMP0131,Employee_131,Finance,Associate,69.0,20.01,2.0,3.8,0.14,71.5,Low,1,0.4,0,0.72,1,0.4
+EMP0132,Employee_132,Customer Support,Manager,58.0,26.4,0.0,3.65,0.35,49.3,Medium,1,0.47,0,1.53,2,0.93
+EMP0133,Employee_133,Marketing,Senior Manager,72.2,15.69,1.0,3.4,0.42,62.0,Medium,1,0.42,0,0.87,2,0.83
+EMP0134,Employee_134,Operations,Associate,54.83,21.49,5.0,3.8,0.0,61.0,Medium,1,0.46,0,1.91,2,0.91
+EMP0135,Employee_135,Sales,Associate,75.8,11.52,0.0,3.3,0.26,52.2,Medium,1,0.47,0,1.53,2,0.94
+EMP0136,Employee_136,Legal,Manager,79.75,20.89,1.0,3.7,0.17,59.0,Medium,1,0.43,0,1.63,2,0.87
+EMP0137,Employee_137,Data & Analytics,Team Lead,53.75,6.95,3.0,4.1,0.0,73.3,Low,1,0.46,0,1.62,1,0.46
+EMP0138,Employee_138,HR,Associate,52.83,19.89,3.0,2.7,0.14,59.7,Medium,1,0.43,0,1.2,2,0.85
+EMP0139,Employee_139,Operations,Associate,53.83,16.68,0.0,4.1,0.1,67.7,Medium,1,0.47,0,1.53,2,0.95
+EMP0140,Employee_140,Finance,Senior Associate,74.2,10.03,2.0,3.2,0.0,63.9,Medium,1,0.41,0,1.17,2,0.82
+EMP0141,Employee_141,Legal,Senior Associate,60.0,7.29,2.0,3.0,0.0,64.6,Medium,1,0.43,0,1.57,2,0.85
+EMP0142,Employee_142,Customer Support,Team Lead,63.4,12.72,0.0,3.4,0.57,52.7,Medium,1,0.46,0,1.53,2,0.92
+EMP0143,Employee_143,Data & Analytics,Senior Associate,55.67,4.62,2.0,3.57,0.06,49.0,Medium,1,0.46,0,1.96,2,0.92
+EMP0144,Employee_144,Customer Support,Senior Associate,58.6,18.69,1.0,3.7,0.0,52.2,Medium,1,0.4,0,0.91,2,0.81
+EMP0145,Employee_145,Engineering,Team Lead,72.25,9.67,2.0,2.43,0.57,3.6,High,-1,0.59,1,4.28,3,1.76
+EMP0146,Employee_146,Engineering,Associate,56.6,12.36,2.0,5.0,0.0,59.5,Medium,1,0.46,0,2.14,2,0.92
+EMP0147,Employee_147,Data & Analytics,Associate,67.83,21.89,6.0,3.0,0.0,2.8,High,-1,0.61,1,4.34,3,1.83
+EMP0148,Employee_148,Data & Analytics,Team Lead,67.0,20.27,4.0,5.0,0.0,70.4,Low,1,0.47,0,2.14,1,0.47
+EMP0149,Employee_149,Finance,Manager,63.67,8.39,4.0,3.6,0.0,64.4,Medium,1,0.43,0,1.41,2,0.86
+EMP0150,Employee_150,Data & Analytics,Senior Associate,66.4,19.63,0.0,2.3,0.0,43.1,High,1,0.47,0,1.53,3,1.42
+EMP0151,Employee_151,Marketing,Senior Associate,70.6,14.47,0.0,3.8,0.36,54.4,Medium,1,0.45,0,1.53,2,0.9
+EMP0152,Employee_152,Customer Support,Associate,61.25,24.25,0.0,3.1,0.14,62.6,Medium,1,0.45,0,1.53,2,0.9
+EMP0153,Employee_153,Operations,Senior Associate,53.67,19.94,2.0,3.7,0.0,58.8,Medium,1,0.4,0,1.11,2,0.8
+EMP0154,Employee_154,Product,Senior Associate,44.0,20.3,4.0,3.65,0.35,63.4,Medium,1,0.48,0,2.13,2,0.96
+EMP0155,Employee_155,Data & Analytics,Associate,73.33,23.86,1.0,2.5,0.0,42.2,High,1,0.47,0,1.44,3,1.4
+EMP0156,Employee_156,HR,Associate,57.25,22.11,3.0,4.15,0.21,76.8,Low,1,0.45,0,1.11,1,0.45
+EMP0157,Employee_157,Engineering,Senior Associate,77.0,19.52,1.0,3.8,0.4,60.9,Medium,1,0.43,0,1.34,2,0.85
+EMP0158,Employee_158,Marketing,Associate,61.25,23.06,2.0,1.7,0.0,36.7,High,1,0.52,0,2.31,3,1.56
+EMP0159,Employee_159,Legal,Senior Associate,62.4,11.33,3.0,4.4,0.85,71.2,Low,1,0.52,0,2.64,1,0.52
+EMP0160,Employee_160,Product,Associate,67.25,14.08,2.0,2.9,0.0,58.6,Medium,1,0.39,0,0.91,2,0.79
+EMP0161,Employee_161,Operations,Senior Associate,55.8,19.87,3.0,3.6,0.0,59.7,Medium,1,0.41,0,0.91,2,0.81
+EMP0162,Employee_162,Product,Associate,68.5,16.21,3.0,3.53,0.32,69.9,Medium,1,0.4,0,0.6,2,0.81
+EMP0163,Employee_163,Data & Analytics,Manager,65.5,12.4,1.0,3.4,0.0,58.4,Medium,1,0.4,0,0.91,2,0.8
+EMP0164,Employee_164,Finance,Team Lead,64.2,21.46,0.0,2.3,0.0,44.7,High,1,0.48,0,1.53,3,1.43
+EMP0165,Employee_165,Engineering,Team Lead,49.33,21.08,2.0,4.8,0.35,68.8,Medium,1,0.49,0,1.87,2,0.97
+EMP0166,Employee_166,Engineering,Manager,50.25,9.57,2.0,2.8,0.0,61.0,Medium,1,0.45,0,1.47,2,0.89
+EMP0167,Employee_167,Legal,Senior Associate,73.33,12.55,2.0,3.5,0.0,60.7,Medium,1,0.4,0,0.95,2,0.8
+EMP0168,Employee_168,Finance,Associate,76.33,14.36,2.0,4.3,0.14,67.7,Medium,1,0.43,0,1.27,2,0.86
+EMP0169,Employee_169,Customer Support,Senior Associate,73.4,21.03,3.0,3.7,0.99,74.8,Low,1,0.53,0,3.24,1,0.53
+EMP0170,Employee_170,Sales,Team Lead,69.6,18.72,2.0,3.75,0.35,63.3,Medium,1,0.4,0,0.57,2,0.8
+EMP0171,Employee_171,Marketing,Team Lead,68.2,21.26,1.0,2.6,0.0,56.1,Medium,1,0.41,0,1.1,2,0.83
+EMP0172,Employee_172,Engineering,Senior Associate,60.0,7.79,3.0,4.1,0.0,62.2,Medium,1,0.43,0,1.5,2,0.86
+EMP0173,Employee_173,HR,Associate,68.2,22.63,3.0,3.1,0.71,77.1,Low,1,0.48,0,2.05,1,0.48
+EMP0174,Employee_174,Engineering,Associate,82.83,15.61,3.0,3.1,0.14,69.4,Medium,1,0.44,0,1.95,2,0.88
+EMP0175,Employee_175,Product,Senior Associate,68.33,20.26,2.0,3.0,0.17,68.7,Medium,1,0.4,0,0.56,2,0.8
+EMP0176,Employee_176,Engineering,Team Lead,77.25,18.39,1.0,2.9,0.0,62.8,Medium,1,0.42,0,1.37,2,0.84
+EMP0177,Employee_177,Engineering,Team Lead,61.67,20.77,2.0,3.1,0.71,58.5,Medium,1,0.45,0,2.05,2,0.89
+EMP0178,Employee_178,Sales,Senior Associate,50.8,19.82,1.0,3.25,0.78,48.6,Medium,1,0.51,0,2.35,2,1.01
+EMP0179,Employee_179,Sales,Director,61.25,27.92,3.0,4.93,0.12,71.0,Low,1,0.48,0,2.05,1,0.48
+EMP0180,Employee_180,Operations,Team Lead,62.25,10.05,1.0,2.6,0.26,51.2,Medium,1,0.43,0,1.17,2,0.86
+EMP0181,Employee_181,Customer Support,Associate,65.0,16.36,2.0,2.57,0.31,59.0,Medium,1,0.4,0,1.14,2,0.81
+EMP0182,Employee_182,HR,Associate,63.33,5.69,2.0,3.2,0.0,56.4,Medium,1,0.42,0,1.81,2,0.84
+EMP0183,Employee_183,Engineering,Associate,47.0,15.9,2.0,4.0,0.7,57.7,Medium,1,0.49,0,2.02,2,0.98
+EMP0184,Employee_184,Engineering,Associate,63.0,13.37,1.0,3.0,0.44,50.8,Medium,1,0.42,0,0.91,2,0.85
+EMP0185,Employee_185,Marketing,Associate,67.33,19.5,3.0,3.7,0.0,57.3,Medium,1,0.4,0,0.91,2,0.81
+EMP0186,Employee_186,Sales,Associate,69.33,10.26,1.0,2.75,0.21,55.2,Medium,1,0.43,0,1.14,2,0.85
+EMP0187,Employee_187,HR,Associate,66.6,20.7,4.0,3.7,0.3,66.4,Medium,1,0.42,0,1.23,2,0.84
+EMP0188,Employee_188,Legal,Associate,72.0,12.9,3.0,2.75,0.07,55.2,Medium,1,0.43,0,0.89,2,0.85
+EMP0189,Employee_189,Operations,Manager,85.25,12.79,2.0,3.0,0.0,72.7,Low,1,0.46,0,2.21,1,0.46
+EMP0190,Employee_190,Customer Support,Associate,69.4,28.55,3.0,3.43,0.21,58.9,Medium,1,0.43,0,1.54,2,0.87
+EMP0191,Employee_191,Finance,Senior Associate,73.5,20.37,1.0,2.9,0.14,56.5,Medium,1,0.41,0,0.97,2,0.83
+EMP0192,Employee_192,Customer Support,Senior Associate,47.0,14.9,3.0,4.55,0.21,55.4,Medium,1,0.47,0,1.81,2,0.93
+EMP0193,Employee_193,Product,Director,66.67,23.82,1.0,2.35,0.49,50.2,Medium,1,0.46,0,1.43,2,0.92
+EMP0194,Employee_194,Engineering,Associate,65.83,5.19,2.0,3.0,0.0,51.4,Medium,1,0.44,0,1.88,2,0.89
+EMP0195,Employee_195,Operations,Senior Associate,53.2,31.39,2.0,4.7,0.0,65.7,Medium,1,0.48,0,1.96,2,0.96
+EMP0196,Employee_196,Product,Senior Manager,57.2,13.44,4.0,3.5,0.0,55.4,Medium,1,0.42,0,1.23,2,0.85
+EMP0197,Employee_197,HR,Manager,61.0,24.27,5.0,3.47,0.38,77.2,Low,1,0.47,0,1.91,1,0.47
+EMP0198,Employee_198,Finance,Manager,78.0,14.14,6.0,4.2,0.0,91.1,Low,-1,0.56,1,2.6,1,0.56
+EMP0199,Employee_199,Sales,Associate,58.33,27.54,1.0,4.03,0.4,55.2,Medium,1,0.44,0,1.39,2,0.88
+EMP0200,Employee_200,Operations,Associate,69.4,5.13,1.0,3.7,0.0,77.9,Low,1,0.49,0,1.89,1,0.49
+EMP0201,Employee_201,Operations,Team Lead,62.4,10.16,2.0,5.0,0.0,75.6,Low,1,0.48,0,2.14,1,0.48
+EMP0202,Employee_202,Engineering,Senior Manager,57.0,15.7,1.0,4.6,0.4,57.2,Medium,1,0.45,0,1.6,2,0.9
+EMP0203,Employee_203,Data & Analytics,Team Lead,65.83,20.69,1.0,3.9,0.0,3.3,High,-1,0.55,1,4.31,3,1.64
+EMP0204,Employee_204,Operations,Team Lead,62.67,33.08,0.0,2.8,0.57,55.2,Medium,1,0.53,0,2.21,2,1.05
+EMP0205,Employee_205,Marketing,Associate,54.67,27.43,4.0,3.9,0.46,69.6,Medium,1,0.48,0,1.38,2,0.96
+EMP0206,Employee_206,Finance,Manager,47.5,14.08,0.0,3.95,0.21,58.6,Medium,1,0.48,0,1.76,2,0.97
+EMP0207,Employee_207,Finance,Associate,77.17,14.03,0.0,3.85,0.78,67.6,Medium,-1,0.54,1,2.35,2,1.08
+EMP0208,Employee_208,Marketing,Senior Associate,70.0,22.57,2.0,4.35,0.07,65.7,Medium,1,0.42,0,1.26,2,0.84
+EMP0209,Employee_209,Legal,Senior Associate,57.6,18.61,2.0,4.2,0.0,64.9,Medium,1,0.41,0,1.06,2,0.82
+EMP0210,Employee_210,Marketing,Senior Associate,79.33,11.93,0.0,3.1,0.0,58.3,Medium,1,0.48,0,1.58,2,0.97
+EMP0211,Employee_211,Marketing,Associate,52.83,17.31,4.0,3.7,0.62,77.5,Low,1,0.5,0,1.7,1,0.5
+EMP0212,Employee_212,Finance,Associate,68.5,18.96,3.0,4.2,0.42,75.4,Low,1,0.43,0,1.06,1,0.43
+EMP0213,Employee_213,Customer Support,Team Lead,49.17,10.52,5.0,4.1,0.14,78.8,Low,1,0.51,0,1.91,1,0.51
+EMP0214,Employee_214,Finance,Associate,46.83,14.23,0.0,3.27,0.25,49.8,Medium,1,0.48,0,1.83,2,0.96
+EMP0215,Employee_215,Data & Analytics,Team Lead,68.17,9.5,5.0,3.57,0.42,80.0,Low,1,0.48,0,1.91,1,0.48
+EMP0216,Employee_216,Engineering,Associate,66.5,10.21,2.0,4.6,0.0,76.2,Low,1,0.45,0,1.6,1,0.45
+EMP0217,Employee_217,Product,Senior Associate,71.8,17.92,0.0,4.4,0.0,58.3,Medium,1,0.47,0,1.53,2,0.94
+EMP0218,Employee_218,Customer Support,Senior Associate,59.0,8.15,2.0,4.23,0.49,59.1,Medium,1,0.46,0,1.45,2,0.91
+EMP0219,Employee_219,Sales,Associate,51.0,19.54,1.0,4.15,0.07,57.8,Medium,1,0.44,0,1.39,2,0.88
+EMP0220,Employee_220,Product,Senior Associate,68.5,11.47,0.0,4.53,0.57,59.4,Medium,1,0.49,0,1.53,2,0.99
+EMP0221,Employee_221,Engineering,Associate,51.25,18.36,3.0,3.7,0.0,67.6,Medium,1,0.42,0,1.37,2,0.84
+EMP0222,Employee_222,Data & Analytics,Associate,70.2,21.34,3.0,4.5,0.28,74.1,Low,1,0.44,0,1.47,1,0.44
+EMP0223,Employee_223,Data & Analytics,Director,66.83,13.29,4.0,2.3,0.2,57.8,Medium,1,0.45,0,1.5,2,0.9
+EMP0224,Employee_224,Sales,Senior Associate,60.33,25.04,0.0,4.5,0.0,68.8,Medium,1,0.48,0,1.53,2,0.96
+EMP0225,Employee_225,Customer Support,Manager,77.8,17.61,2.0,4.95,0.07,72.7,Low,1,0.48,0,2.07,1,0.48
+EMP0226,Employee_226,Legal,Associate,69.8,16.27,0.0,2.5,0.26,48.2,Medium,1,0.46,0,1.53,2,0.91
+EMP0227,Employee_227,Marketing,Team Lead,69.0,35.03,2.0,3.65,0.21,68.7,Medium,1,0.47,0,2.49,2,0.94
+EMP0228,Employee_228,Customer Support,Manager,68.6,12.46,5.0,2.35,0.64,60.9,Medium,1,0.51,0,1.91,2,1.02
+EMP0229,Employee_229,Legal,Team Lead,58.67,12.86,1.0,3.65,0.21,48.9,Medium,1,0.42,0,0.94,2,0.84
+EMP0230,Employee_230,Data & Analytics,Senior Associate,67.75,29.12,4.0,4.85,0.07,93.1,Low,-1,0.54,1,2.31,1,0.54
+EMP0231,Employee_231,Finance,Senior Associate,67.0,15.72,1.0,3.7,0.2,59.8,Medium,1,0.39,0,0.84,2,0.79
+EMP0232,Employee_232,Engineering,Senior Associate,77.5,17.14,2.0,3.07,0.35,65.3,Medium,1,0.42,0,1.39,2,0.84
+EMP0233,Employee_233,Sales,Senior Manager,62.0,25.24,2.0,3.2,0.0,61.9,Medium,1,0.4,0,1.06,2,0.79
+EMP0234,Employee_234,Engineering,Manager,59.33,19.52,3.0,3.4,0.0,60.8,Medium,1,0.4,0,0.91,2,0.79
+EMP0235,Employee_235,HR,Senior Manager,68.67,17.53,1.0,2.85,0.07,56.2,Medium,1,0.41,0,0.84,2,0.81
+EMP0236,Employee_236,HR,Associate,48.75,13.89,4.0,2.83,0.32,47.7,Medium,1,0.48,0,1.63,2,0.96
+EMP0237,Employee_237,Customer Support,Team Lead,62.2,23.74,1.0,5.0,0.0,71.3,Low,1,0.47,0,2.14,1,0.47
+EMP0238,Employee_238,Data & Analytics,Senior Manager,71.6,23.47,1.0,4.4,0.1,69.2,Medium,1,0.44,0,1.33,2,0.87
+EMP0239,Employee_239,Data & Analytics,Associate,71.0,15.1,4.0,1.9,0.1,67.0,Medium,1,0.49,0,2.04,2,0.98
+EMP0240,Employee_240,Marketing,Associate,67.5,22.71,1.0,3.8,0.0,58.9,Medium,1,0.4,0,0.91,2,0.79
+EMP0241,Employee_241,Marketing,Team Lead,68.75,17.88,2.0,2.73,0.25,64.5,Medium,1,0.4,0,0.92,2,0.8
+EMP0242,Employee_242,Marketing,Team Lead,66.0,11.27,0.0,2.9,0.0,42.1,High,1,0.48,0,1.53,3,1.44
+EMP0243,Employee_243,Finance,Manager,65.17,19.26,1.0,3.47,0.15,51.8,Medium,1,0.4,0,0.84,2,0.8
+EMP0244,Employee_244,Product,Associate,76.2,16.77,1.0,4.0,0.0,64.6,Medium,1,0.42,0,1.26,2,0.85
+EMP0245,Employee_245,Operations,Manager,61.6,19.24,0.0,2.83,0.06,46.7,Medium,1,0.45,0,1.53,2,0.9
+EMP0246,Employee_246,Product,Associate,42.75,12.69,3.0,4.5,0.0,63.3,Medium,1,0.49,0,2.26,2,0.98
+EMP0247,Employee_247,Engineering,Associate,57.83,14.22,0.0,3.4,0.57,52.7,Medium,1,0.47,0,1.53,2,0.93
+EMP0248,Employee_248,Product,Associate,59.67,21.67,4.0,3.97,0.65,63.5,Medium,1,0.48,0,1.81,2,0.96
+EMP0249,Employee_249,Finance,Manager,52.33,32.72,1.0,2.33,0.55,46.7,Medium,-1,0.55,1,2.15,2,1.09
+EMP0250,Employee_250,Engineering,Team Lead,62.75,20.68,2.0,3.3,0.0,68.8,Medium,1,0.39,0,0.91,2,0.78
+EMP0251,Employee_251,Product,Senior Associate,65.0,37.16,3.0,2.95,0.78,66.1,Medium,-1,0.55,1,2.81,2,1.11
+EMP0252,Employee_252,Finance,Senior Associate,79.17,23.57,0.0,3.25,0.35,64.1,Medium,1,0.48,0,1.57,2,0.96
+EMP0253,Employee_253,Operations,Manager,63.6,14.45,1.0,3.4,0.14,50.3,Medium,1,0.4,0,0.84,2,0.81
+EMP0254,Employee_254,Product,Senior Associate,64.67,28.71,3.0,2.7,0.14,56.1,Medium,1,0.44,0,1.57,2,0.88
+EMP0255,Employee_255,Finance,Manager,65.17,15.87,1.0,2.73,0.5,57.1,Medium,1,0.42,0,1.2,2,0.83
+EMP0256,Employee_256,Marketing,Senior Associate,55.0,10.86,2.0,2.45,0.07,48.7,Medium,1,0.44,0,1.3,2,0.88
+EMP0257,Employee_257,Data & Analytics,Senior Associate,64.17,13.64,2.0,2.0,0.0,0.5,High,-1,0.58,1,4.51,3,1.74
+EMP0258,Employee_258,Marketing,Senior Associate,68.83,13.09,0.0,4.0,0.0,56.4,Medium,1,0.45,0,1.53,2,0.9
+EMP0259,Employee_259,Data & Analytics,Senior Associate,48.0,9.0,3.0,3.0,0.0,56.3,Medium,1,0.46,0,1.71,2,0.91
+EMP0260,Employee_260,Sales,Team Lead,52.6,15.04,2.0,4.73,0.23,65.6,Medium,1,0.46,0,1.78,2,0.92
+EMP0261,Employee_261,Sales,Senior Associate,72.33,32.72,3.0,4.0,0.42,56.4,Medium,1,0.49,0,2.15,2,0.98
+EMP0262,Employee_262,Sales,Associate,80.25,20.81,2.0,4.83,0.15,80.0,Low,1,0.5,0,1.92,1,0.5
+EMP0263,Employee_263,Operations,Manager,66.0,11.83,6.0,3.3,0.0,77.6,Low,1,0.49,0,2.6,1,0.49
+EMP0264,Employee_264,Marketing,Senior Associate,65.8,15.4,2.0,4.4,0.14,59.2,Medium,1,0.41,0,1.33,2,0.82
+EMP0265,Employee_265,Data & Analytics,Senior Associate,61.67,27.71,4.0,3.2,0.0,66.8,Medium,1,0.44,0,1.42,2,0.88
+EMP0266,Employee_266,Finance,Senior Manager,78.5,9.31,1.0,2.67,0.4,60.4,Medium,1,0.46,0,1.5,2,0.93
+EMP0267,Employee_267,Engineering,Team Lead,84.33,18.9,2.0,2.2,0.17,61.9,Medium,1,0.47,0,2.11,2,0.95
+EMP0268,Employee_268,Finance,Associate,68.6,18.8,1.0,3.5,0.28,57.7,Medium,1,0.39,0,0.84,2,0.79
+EMP0269,Employee_269,Engineering,Senior Manager,66.5,19.43,2.0,2.7,0.0,54.8,Medium,1,0.4,0,0.96,2,0.8
+EMP0270,Employee_270,HR,Team Lead,75.83,15.2,1.0,2.97,0.55,51.1,Medium,1,0.46,0,1.4,2,0.91
+EMP0271,Employee_271,Finance,Senior Associate,62.6,13.2,6.0,4.1,0.1,72.8,Low,1,0.49,0,2.6,1,0.49
+EMP0272,Employee_272,Product,Associate,63.0,12.12,4.0,3.0,0.42,75.6,Low,1,0.45,0,1.23,1,0.45
+EMP0273,Employee_273,Product,Manager,72.2,17.12,2.0,4.4,0.3,74.8,Low,1,0.43,0,1.33,1,0.43
+EMP0274,Employee_274,Customer Support,Team Lead,64.2,19.15,5.0,2.87,0.32,67.5,Medium,1,0.44,0,1.91,2,0.89
+EMP0275,Employee_275,Marketing,Senior Associate,78.0,6.88,3.0,2.63,0.45,62.3,Medium,1,0.49,0,1.63,2,0.98
+EMP0276,Employee_276,Engineering,Manager,81.67,13.46,2.0,3.35,0.07,75.1,Low,1,0.45,0,1.83,1,0.45
+EMP0277,Employee_277,Engineering,Manager,75.75,16.46,2.0,2.05,0.07,1.5,High,-1,0.59,1,4.44,3,1.76
+EMP0278,Employee_278,Marketing,Associate,62.2,12.4,1.0,4.6,0.42,52.4,Medium,1,0.46,0,1.6,2,0.92
+EMP0279,Employee_279,Operations,Senior Associate,74.2,20.29,3.0,2.6,0.0,66.3,Medium,1,0.42,0,1.1,2,0.85
+EMP0280,Employee_280,Customer Support,Associate,66.33,31.34,1.0,3.5,0.0,62.5,Medium,1,0.43,0,1.95,2,0.87
+EMP0281,Employee_281,Operations,Team Lead,63.67,22.89,2.0,3.25,0.64,58.4,Medium,1,0.43,0,1.75,2,0.86
+EMP0282,Employee_282,Operations,Associate,75.33,36.83,2.0,4.3,0.0,82.3,Low,1,0.53,0,2.76,1,0.53
+EMP0283,Employee_283,Operations,Team Lead,67.0,12.45,6.0,3.93,0.21,82.3,Low,1,0.5,0,2.6,1,0.5
+EMP0284,Employee_284,Marketing,Manager,61.33,24.01,3.0,3.45,0.07,64.6,Medium,1,0.4,0,0.88,2,0.81
+EMP0285,Employee_285,Operations,Manager,65.17,32.62,0.0,3.9,0.0,61.9,Medium,1,0.49,0,2.14,2,0.98
+EMP0286,Employee_286,Product,Senior Associate,54.67,22.23,3.0,4.2,0.0,82.9,Low,1,0.47,0,1.56,1,0.47
+EMP0287,Employee_287,Sales,Manager,80.5,11.24,1.0,2.65,0.92,65.2,Medium,-1,0.55,1,2.94,2,1.1
+EMP0288,Employee_288,HR,Associate,63.0,12.17,0.0,3.6,0.17,49.3,Medium,1,0.45,0,1.53,2,0.91
+EMP0289,Employee_289,Engineering,Manager,60.5,20.2,4.0,4.4,0.0,74.5,Low,1,0.44,0,1.33,1,0.44
+EMP0290,Employee_290,Engineering,Associate,62.8,11.03,2.0,4.4,0.0,61.1,Medium,1,0.41,0,1.33,2,0.83
+EMP0291,Employee_291,HR,Senior Associate,59.2,12.85,2.0,4.1,0.0,72.9,Low,1,0.41,0,0.93,1,0.41
+EMP0292,Employee_292,Marketing,Manager,58.67,9.14,2.0,4.0,0.36,73.1,Low,1,0.44,0,1.3,1,0.44
+EMP0293,Employee_293,Finance,Associate,69.67,19.24,4.0,1.9,0.4,60.6,Medium,1,0.49,0,2.04,2,0.97
+EMP0294,Employee_294,Marketing,Associate,64.0,22.54,2.0,3.75,0.21,66.5,Medium,1,0.39,0,0.66,2,0.79
+EMP0295,Employee_295,Engineering,Team Lead,75.8,23.93,4.0,2.8,0.2,78.1,Low,1,0.47,0,1.23,1,0.47
+EMP0296,Employee_296,Engineering,Team Lead,57.5,23.03,1.0,4.57,0.4,61.0,Medium,1,0.45,0,1.56,2,0.9
+EMP0297,Employee_297,HR,Team Lead,59.8,24.2,1.0,3.3,0.2,57.1,Medium,1,0.4,0,0.91,2,0.81
+EMP0298,Employee_298,Operations,Team Lead,68.5,17.52,5.0,4.15,0.49,73.2,Low,1,0.47,0,1.91,1,0.47
+EMP0299,Employee_299,Marketing,Senior Associate,62.6,24.55,3.0,1.8,0.28,42.1,High,1,0.51,0,2.17,3,1.53
+EMP0300,Employee_300,Data & Analytics,Associate,47.67,25.01,1.0,3.8,0.0,57.6,Medium,1,0.44,0,1.74,2,0.89
+EMP0301,Employee_301,HR,Senior Associate,51.33,29.49,2.0,3.63,0.32,2.2,High,-1,0.58,1,4.39,3,1.73
+EMP0302,Employee_302,Product,Associate,49.75,12.28,2.0,2.3,0.66,40.4,High,-1,0.54,1,1.84,3,1.63
+EMP0303,Employee_303,Engineering,Senior Manager,70.33,22.0,7.0,3.37,0.23,72.4,Low,1,0.51,0,3.29,1,0.51
+EMP0304,Employee_304,HR,Team Lead,69.0,17.25,2.0,3.03,0.06,50.7,Medium,1,0.41,0,0.81,2,0.81
+EMP0305,Employee_305,Marketing,Senior Associate,58.17,19.31,2.0,2.93,0.25,56.2,Medium,1,0.4,0,0.65,2,0.8
+EMP0306,Employee_306,Engineering,Senior Associate,69.33,9.54,0.0,3.3,0.0,64.7,Medium,1,0.46,0,1.53,2,0.93
+EMP0307,Employee_307,Finance,Senior Manager,65.0,21.34,0.0,2.67,0.46,46.5,Medium,1,0.47,0,1.53,2,0.94
+EMP0308,Employee_308,HR,Associate,53.0,26.14,3.0,2.5,0.0,59.6,Medium,1,0.45,0,1.23,2,0.9
+EMP0309,Employee_309,Customer Support,Team Lead,56.0,13.83,5.0,3.15,0.92,75.5,Low,-1,0.56,1,2.94,1,0.56
+EMP0310,Employee_310,Engineering,Senior Associate,70.25,4.57,3.0,3.23,0.45,65.6,Medium,1,0.47,0,1.97,2,0.94
+EMP0311,Employee_311,Marketing,Team Lead,57.67,8.96,6.0,3.65,0.35,80.2,Low,1,0.52,0,2.6,1,0.52
+EMP0312,Employee_312,Sales,Associate,68.0,38.0,4.0,3.77,0.32,2.0,High,-1,0.61,1,4.4,3,1.84
+EMP0313,Employee_313,Data & Analytics,Manager,65.0,25.0,1.0,2.95,0.21,48.9,Medium,1,0.42,0,1.02,2,0.84
+EMP0314,Employee_314,Legal,Senior Manager,61.67,11.59,4.0,3.57,0.38,75.1,Low,1,0.44,0,1.23,1,0.44
+EMP0315,Employee_315,Operations,Team Lead,61.75,26.13,3.0,4.9,0.0,65.3,Medium,1,0.46,0,2.01,2,0.91
+EMP0316,Employee_316,Legal,Team Lead,79.8,11.54,2.0,2.45,0.07,57.6,Medium,1,0.45,0,1.63,2,0.89
+EMP0317,Employee_317,Marketing,Senior Manager,70.0,34.73,4.0,3.3,0.44,68.2,Medium,1,0.51,0,2.45,2,1.02
+EMP0318,Employee_318,Product,Team Lead,53.33,26.18,2.0,3.55,0.35,49.0,Medium,1,0.43,0,1.2,2,0.87
+EMP0319,Employee_319,Product,Associate,65.8,16.35,4.0,3.3,0.0,69.9,Medium,1,0.41,0,1.23,2,0.82
+EMP0320,Employee_320,Sales,Team Lead,71.6,17.84,2.0,3.95,0.49,66.2,Medium,1,0.43,0,1.16,2,0.85
+EMP0321,Employee_321,Operations,Team Lead,54.75,19.64,4.0,4.43,0.42,74.4,Low,1,0.47,0,1.38,1,0.47
+EMP0322,Employee_322,Customer Support,Senior Associate,64.75,19.52,2.0,2.07,0.12,43.0,High,1,0.46,0,1.81,3,1.38
+EMP0323,Employee_323,Sales,Team Lead,80.0,25.71,2.0,3.7,0.28,72.2,Low,1,0.45,0,1.65,1,0.45
+EMP0324,Employee_324,Legal,Senior Manager,52.8,14.5,2.0,3.85,0.21,66.7,Medium,1,0.41,0,1.2,2,0.83
+EMP0325,Employee_325,Sales,Senior Manager,73.33,15.93,1.0,2.83,0.32,59.9,Medium,1,0.42,0,0.95,2,0.83
+EMP0326,Employee_326,Legal,Senior Associate,73.2,19.79,2.0,3.4,0.0,75.1,Low,1,0.41,0,0.99,1,0.41
+EMP0327,Employee_327,Engineering,Associate,63.17,18.53,2.0,2.5,0.0,50.3,Medium,1,0.41,0,1.23,2,0.82
+EMP0328,Employee_328,Product,Director,64.0,16.55,3.0,3.2,0.0,50.5,Medium,1,0.41,0,0.91,2,0.82
+EMP0329,Employee_329,Engineering,Manager,79.33,19.78,1.0,2.45,0.92,55.3,Medium,-1,0.55,1,2.94,2,1.1
+EMP0330,Employee_330,Data & Analytics,Associate,42.67,18.4,4.0,2.5,0.0,58.8,Medium,1,0.49,0,2.27,2,0.99
+EMP0331,Employee_331,Operations,Senior Manager,60.2,16.41,1.0,2.63,0.15,45.8,Medium,1,0.43,0,1.17,2,0.85
+EMP0332,Employee_332,Customer Support,Manager,78.8,6.69,1.0,2.5,0.0,58.0,Medium,1,0.48,0,1.66,2,0.95
+EMP0333,Employee_333,Legal,Senior Associate,78.17,24.91,2.0,3.17,0.35,68.9,Medium,1,0.44,0,1.46,2,0.87
+EMP0334,Employee_334,Customer Support,Team Lead,78.6,27.23,1.0,3.2,0.0,69.5,Medium,1,0.45,0,1.51,2,0.9
+EMP0335,Employee_335,Legal,Senior Associate,56.0,12.39,1.0,2.9,0.2,53.1,Medium,1,0.42,0,0.87,2,0.84
+EMP0336,Employee_336,Marketing,Associate,57.6,23.62,2.0,3.4,0.0,61.2,Medium,1,0.4,0,0.91,2,0.8
+EMP0337,Employee_337,Sales,Senior Associate,58.5,9.98,2.0,2.8,0.0,56.9,Medium,1,0.42,0,1.18,2,0.84
+EMP0338,Employee_338,Data & Analytics,Manager,74.75,22.66,3.0,3.1,1.13,73.8,Low,-1,0.55,1,3.83,1,0.55
+EMP0339,Employee_339,Product,Associate,57.33,12.32,4.0,4.1,0.0,65.2,Medium,1,0.43,0,1.23,2,0.86
+EMP0340,Employee_340,Legal,Senior Associate,76.33,24.01,1.0,3.5,0.0,55.8,Medium,1,0.42,0,1.27,2,0.85
+EMP0341,Employee_341,Customer Support,Senior Associate,58.75,22.05,5.0,4.3,0.0,74.8,Low,1,0.48,0,1.91,1,0.48
+EMP0342,Employee_342,Data & Analytics,Senior Associate,55.5,10.47,4.0,3.0,0.35,0.3,High,-1,0.58,1,4.53,3,1.73
+EMP0343,Employee_343,Finance,Senior Manager,60.75,20.39,4.0,4.55,0.49,77.3,Low,1,0.48,0,1.53,1,0.48
+EMP0344,Employee_344,Finance,Senior Associate,59.75,14.17,2.0,3.13,0.06,58.0,Medium,1,0.4,0,0.67,2,0.8
+EMP0345,Employee_345,Engineering,Senior Associate,72.25,24.31,3.0,2.93,0.06,65.8,Medium,1,0.42,0,0.92,2,0.84
+EMP0346,Employee_346,Product,Team Lead,51.75,6.85,1.0,2.0,0.5,42.3,High,-1,0.55,1,1.9,3,1.66
+EMP0347,Employee_347,Marketing,Senior Associate,57.75,23.64,2.0,3.8,0.0,51.2,Medium,1,0.41,0,0.91,2,0.81
+EMP0348,Employee_348,Customer Support,Associate,74.2,16.32,1.0,4.17,0.59,65.7,Medium,1,0.46,0,1.54,2,0.92
+EMP0349,Employee_349,Sales,Senior Associate,87.0,11.53,3.0,3.55,0.21,73.0,Low,1,0.49,0,2.39,1,0.49
+EMP0350,Employee_350,Sales,Associate,67.5,15.73,3.0,2.1,0.14,58.6,Medium,1,0.44,0,1.77,2,0.89
+EMP0351,Employee_351,Customer Support,Associate,58.33,22.44,4.0,3.6,0.0,60.6,Medium,1,0.42,0,1.23,2,0.84
+EMP0352,Employee_352,Operations,Senior Associate,69.2,23.0,2.0,4.0,0.0,95.7,Low,1,0.48,0,2.5,1,0.48
+EMP0353,Employee_353,Marketing,Senior Associate,58.0,13.69,1.0,3.47,0.12,52.1,Medium,1,0.41,0,0.84,2,0.82
+EMP0354,Employee_354,Data & Analytics,Senior Manager,78.0,15.72,2.0,3.15,0.64,97.1,Low,1,0.53,0,2.61,1,0.53
+EMP0355,Employee_355,Legal,Senior Associate,60.5,9.18,2.0,3.57,0.15,73.6,Low,1,0.43,0,1.3,1,0.43
+EMP0356,Employee_356,Operations,Team Lead,54.0,9.85,2.0,4.13,0.21,58.2,Medium,1,0.43,0,1.2,2,0.86
+EMP0357,Employee_357,Legal,Team Lead,62.4,17.47,5.0,4.4,0.0,75.9,Low,1,0.46,0,1.91,1,0.46
+EMP0358,Employee_358,Legal,Associate,63.5,26.76,2.0,3.57,0.55,59.9,Medium,1,0.43,0,1.4,2,0.87
+EMP0359,Employee_359,Operations,Team Lead,53.0,30.99,1.0,4.1,0.0,64.8,Medium,1,0.47,0,1.9,2,0.94
+EMP0360,Employee_360,Engineering,Associate,58.0,19.7,1.0,4.3,0.14,67.1,Medium,1,0.43,0,1.2,2,0.86
+EMP0361,Employee_361,Finance,Senior Manager,55.25,23.98,2.0,2.57,0.29,61.2,Medium,1,0.43,0,1.14,2,0.86
+EMP0362,Employee_362,Legal,Associate,58.83,18.28,2.0,4.4,0.52,66.5,Medium,1,0.44,0,1.33,2,0.88
+EMP0363,Employee_363,Operations,Senior Associate,58.33,18.45,0.0,2.5,0.0,50.1,Medium,1,0.45,0,1.53,2,0.9
+EMP0364,Employee_364,Operations,Associate,41.25,20.53,1.0,2.8,0.4,40.0,High,1,0.52,0,2.42,3,1.57
+EMP0365,Employee_365,HR,Director,58.67,24.25,3.0,4.75,0.35,68.9,Medium,1,0.46,0,1.8,2,0.93
+EMP0366,Employee_366,Engineering,Senior Associate,69.0,27.35,1.0,3.87,0.31,66.1,Medium,1,0.43,0,1.37,2,0.85
+EMP0367,Employee_367,Product,Team Lead,56.6,30.29,1.0,2.9,0.0,47.7,Medium,1,0.45,0,1.8,2,0.91
+EMP0368,Employee_368,HR,Associate,59.0,10.44,0.0,3.63,0.15,50.9,Medium,1,0.46,0,1.53,2,0.92
+EMP0369,Employee_369,HR,Team Lead,69.25,15.31,2.0,3.3,0.0,61.2,Medium,1,0.39,0,0.91,2,0.77
+EMP0370,Employee_370,Customer Support,Associate,72.67,9.87,4.0,3.37,0.21,57.1,Medium,1,0.44,0,1.23,2,0.89
+EMP0371,Employee_371,Finance,Manager,56.0,19.52,1.0,3.95,0.78,46.2,Medium,1,0.5,0,2.35,2,1.01
+EMP0372,Employee_372,Operations,Associate,70.4,12.4,3.0,3.17,0.15,75.5,Low,1,0.42,0,1.02,1,0.42
+EMP0373,Employee_373,Finance,Associate,61.33,12.21,1.0,4.75,0.21,67.3,Medium,1,0.46,0,1.8,2,0.91
+EMP0374,Employee_374,Marketing,Associate,62.83,20.64,2.0,3.13,0.15,63.2,Medium,1,0.39,0,0.38,2,0.79
+EMP0375,Employee_375,Customer Support,Senior Associate,76.6,23.67,3.0,3.27,0.55,70.6,Low,1,0.46,0,1.4,1,0.46
+EMP0376,Employee_376,Product,Team Lead,67.0,12.07,3.0,3.0,0.0,64.7,Medium,1,0.4,0,0.91,2,0.81
+EMP0377,Employee_377,Finance,Associate,73.33,18.15,0.0,2.7,0.56,52.0,Medium,1,0.49,0,1.53,2,0.97
+EMP0378,Employee_378,Sales,Manager,48.0,9.01,2.0,4.3,0.14,51.7,Medium,1,0.47,0,1.71,2,0.95
+EMP0379,Employee_379,Legal,Senior Associate,66.83,13.24,3.0,3.35,0.49,68.8,Medium,1,0.42,0,1.16,2,0.84
+EMP0380,Employee_380,Marketing,Senior Associate,64.67,14.64,0.0,3.33,0.67,53.8,Medium,1,0.47,0,1.88,2,0.95
+EMP0381,Employee_381,Engineering,Senior Associate,63.33,10.17,2.0,2.8,0.0,48.6,Medium,1,0.42,0,1.15,2,0.83
+EMP0382,Employee_382,Product,Senior Associate,77.0,14.93,5.0,3.2,0.0,80.8,Low,1,0.49,0,1.91,1,0.49
+EMP0383,Employee_383,Marketing,Team Lead,44.5,17.6,2.0,3.45,0.35,61.1,Medium,1,0.45,0,2.07,2,0.9
+EMP0384,Employee_384,Legal,Associate,53.0,15.95,2.0,2.9,0.0,53.8,Medium,1,0.42,0,1.18,2,0.83
+EMP0385,Employee_385,Customer Support,Associate,67.8,15.24,2.0,3.6,0.0,72.9,Low,1,0.4,0,0.91,1,0.4
+EMP0386,Employee_386,Legal,Manager,75.0,14.8,4.0,2.45,0.64,58.8,Medium,1,0.5,0,1.75,2,1.0
+EMP0387,Employee_387,HR,Senior Manager,66.6,11.26,3.0,3.87,0.15,72.2,Low,1,0.42,0,0.99,1,0.42
+EMP0388,Employee_388,Legal,Senior Associate,67.33,11.22,2.0,2.93,0.59,65.1,Medium,1,0.44,0,1.54,2,0.88
+EMP0389,Employee_389,HR,Associate,71.0,13.93,2.0,1.27,0.38,48.1,Medium,1,0.51,0,2.89,2,1.03
+EMP0390,Employee_390,Customer Support,Team Lead,51.25,19.26,4.0,3.93,0.85,59.0,Medium,1,0.53,0,2.65,2,1.06
+EMP0391,Employee_391,Data & Analytics,Senior Associate,76.67,4.04,1.0,3.75,0.49,71.1,Low,1,0.51,0,2.05,1,0.51
+EMP0392,Employee_392,HR,Associate,60.0,14.7,2.0,3.5,0.26,63.6,Medium,1,0.4,0,0.49,2,0.79
+EMP0393,Employee_393,Engineering,Associate,65.17,13.93,1.0,4.03,0.61,56.6,Medium,1,0.44,0,1.65,2,0.88
+EMP0394,Employee_394,Legal,Team Lead,61.83,10.26,4.0,2.23,0.15,97.4,Low,1,0.53,0,2.63,1,0.53
+EMP0395,Employee_395,Legal,Team Lead,64.17,20.74,0.0,4.9,0.0,63.8,Medium,1,0.49,0,2.01,2,0.98
+EMP0396,Employee_396,Engineering,Associate,69.8,27.8,2.0,3.2,0.79,57.2,Medium,1,0.49,0,2.41,2,0.97
+EMP0397,Employee_397,Sales,Associate,67.25,24.28,2.0,3.07,0.21,62.1,Medium,1,0.4,0,0.92,2,0.8
+EMP0398,Employee_398,Operations,Associate,57.33,13.43,4.0,4.7,0.0,81.8,Low,1,0.48,0,1.74,1,0.48
+EMP0399,Employee_399,Data & Analytics,Team Lead,67.2,17.53,0.0,2.65,0.35,57.5,Medium,1,0.44,0,1.53,2,0.87
+EMP0400,Employee_400,Product,Associate,57.0,12.41,3.0,1.9,0.0,57.5,Medium,1,0.47,0,2.04,2,0.95
+EMP0401,Employee_401,HR,Associate,54.0,14.35,3.0,4.0,0.1,69.5,Medium,1,0.42,0,1.08,2,0.84
+EMP0402,Employee_402,Engineering,Manager,59.33,20.98,0.0,3.75,0.35,52.3,Medium,1,0.45,0,1.53,2,0.9
+EMP0403,Employee_403,Customer Support,Associate,57.67,24.01,2.0,3.2,0.26,59.6,Medium,1,0.41,0,0.88,2,0.81
+EMP0404,Employee_404,HR,Team Lead,46.75,24.64,4.0,4.2,0.0,62.4,Medium,1,0.48,0,1.84,2,0.97
+EMP0405,Employee_405,Operations,Associate,83.0,16.67,1.0,4.03,0.15,69.7,Medium,1,0.46,0,1.97,2,0.93
+EMP0406,Employee_406,Customer Support,Associate,60.75,16.76,1.0,3.3,0.0,58.5,Medium,1,0.39,0,0.91,2,0.79
+EMP0407,Employee_407,Marketing,Associate,71.17,23.75,2.0,3.77,0.32,70.3,Low,1,0.41,0,0.84,1,0.41
+EMP0408,Employee_408,Legal,Team Lead,49.2,29.21,1.0,4.6,0.0,53.9,Medium,1,0.49,0,1.64,2,0.97
+EMP0409,Employee_409,Marketing,Manager,45.6,28.93,1.0,3.0,0.0,39.0,High,1,0.53,0,1.96,3,1.59
+EMP0410,Employee_410,HR,Manager,74.0,25.87,2.0,3.4,0.0,53.8,Medium,1,0.42,0,1.15,2,0.84
+EMP0411,Employee_411,Operations,Senior Associate,77.67,11.37,2.0,4.1,0.0,82.8,Low,1,0.47,0,1.55,1,0.47
+EMP0412,Employee_412,Data & Analytics,Team Lead,65.6,25.1,0.0,3.8,0.14,98.1,Low,1,0.52,0,2.68,1,0.52
+EMP0413,Employee_413,HR,Associate,57.33,12.04,2.0,4.17,0.31,65.3,Medium,1,0.42,0,1.02,2,0.84
+EMP0414,Employee_414,Engineering,Associate,59.25,36.35,4.0,5.0,0.0,77.4,Low,-1,0.56,1,2.69,1,0.56
+EMP0415,Employee_415,Finance,Manager,73.75,26.31,2.0,3.3,0.0,58.0,Medium,1,0.41,0,1.21,2,0.81
+EMP0416,Employee_416,HR,Associate,62.5,21.17,2.0,4.1,0.14,64.5,Medium,1,0.4,0,0.93,2,0.8
+EMP0417,Employee_417,Legal,Associate,55.25,5.56,2.0,3.6,0.0,56.5,Medium,1,0.44,0,1.83,2,0.87
+EMP0418,Employee_418,Legal,Associate,64.67,24.86,2.0,3.97,0.15,60.0,Medium,1,0.4,0,1.0,2,0.8
+EMP0419,Employee_419,HR,Associate,70.0,26.96,3.0,4.53,0.42,77.1,Low,1,0.47,0,1.51,1,0.47
+EMP0420,Employee_420,Customer Support,Associate,59.6,23.7,0.0,3.7,0.0,48.9,Medium,1,0.45,0,1.53,2,0.91
+EMP0421,Employee_421,Finance,Team Lead,68.33,20.58,3.0,2.9,0.0,73.0,Low,1,0.42,0,0.91,1,0.42
+EMP0422,Employee_422,Engineering,Senior Associate,75.8,11.34,1.0,3.7,0.0,63.2,Medium,1,0.43,0,1.21,2,0.87
+EMP0423,Employee_423,HR,Manager,71.75,21.17,3.0,3.17,0.61,70.5,Low,1,0.44,0,1.65,1,0.44
+EMP0424,Employee_424,Customer Support,Manager,69.0,14.8,5.0,4.5,0.71,83.4,Low,-1,0.55,1,2.05,1,0.55
+EMP0425,Employee_425,Legal,Senior Associate,57.33,9.02,2.0,4.45,0.35,57.0,Medium,1,0.44,0,1.4,2,0.89
+EMP0426,Employee_426,Legal,Associate,72.4,21.73,2.0,3.9,0.35,49.7,Medium,1,0.43,0,0.89,2,0.86
+EMP0427,Employee_427,Operations,Senior Associate,57.0,17.34,7.0,1.37,0.23,98.1,Low,-1,0.63,1,3.29,1,0.63
+EMP0428,Employee_428,HR,Team Lead,53.5,16.02,1.0,3.3,0.57,57.8,Medium,1,0.45,0,1.46,2,0.89
+EMP0429,Employee_429,Finance,Associate,71.25,13.96,3.0,3.2,0.0,58.3,Medium,1,0.4,0,0.91,2,0.81
+EMP0430,Employee_430,Sales,Team Lead,81.6,13.5,1.0,3.6,0.61,76.2,Low,1,0.5,0,1.82,1,0.5
+EMP0431,Employee_431,Finance,Senior Associate,54.33,17.04,1.0,4.5,0.0,63.8,Medium,1,0.43,0,1.47,2,0.87
+EMP0432,Employee_432,Legal,Team Lead,63.67,22.3,4.0,4.2,0.28,91.1,Low,1,0.48,0,2.17,1,0.48
+EMP0433,Employee_433,Legal,Senior Associate,67.0,22.47,2.0,3.37,0.47,58.9,Medium,1,0.41,0,1.07,2,0.82
+EMP0434,Employee_434,Marketing,Associate,64.0,14.85,1.0,2.0,0.0,55.1,Medium,1,0.45,0,1.9,2,0.91
+EMP0435,Employee_435,Legal,Senior Manager,52.6,25.5,3.0,2.7,0.1,52.4,Medium,1,0.45,0,1.22,2,0.89
+EMP0436,Employee_436,Engineering,Manager,68.6,25.79,4.0,2.95,0.21,67.8,Medium,1,0.44,0,1.23,2,0.87
+EMP0437,Employee_437,Product,Associate,74.6,13.96,2.0,4.1,0.0,66.4,Medium,1,0.42,0,1.09,2,0.83
+EMP0438,Employee_438,HR,Manager,57.33,30.81,3.0,2.9,0.0,58.1,Medium,1,0.45,0,1.87,2,0.89
+EMP0439,Employee_439,Finance,Senior Associate,72.25,20.32,1.0,3.43,0.06,66.2,Medium,1,0.41,0,0.84,2,0.81
+EMP0440,Employee_440,Product,Manager,73.83,11.97,4.0,2.5,0.0,77.3,Low,1,0.46,0,1.23,1,0.46
+EMP0441,Employee_441,Customer Support,Manager,65.8,9.78,1.0,3.8,0.0,55.2,Medium,1,0.42,0,1.21,2,0.84
+EMP0442,Employee_442,Sales,Senior Associate,69.75,29.34,1.0,3.9,0.0,63.8,Medium,1,0.43,0,1.66,2,0.86
+EMP0443,Employee_443,Engineering,Associate,52.75,17.27,1.0,4.13,0.15,53.4,Medium,1,0.43,0,1.21,2,0.87
+EMP0444,Employee_444,Finance,Associate,68.75,15.02,2.0,3.85,0.35,67.3,Medium,1,0.4,0,0.59,2,0.8
+EMP0445,Employee_445,Product,Senior Associate,63.0,19.0,1.0,2.6,0.0,57.2,Medium,1,0.41,0,1.1,2,0.81
+EMP0446,Employee_446,Sales,Team Lead,57.17,17.09,0.0,4.0,0.0,51.0,Medium,1,0.45,0,1.53,2,0.9
+EMP0447,Employee_447,Marketing,Associate,64.2,20.34,4.0,3.4,0.14,71.5,Low,1,0.42,0,1.23,1,0.42
+EMP0448,Employee_448,Engineering,Associate,64.33,22.47,3.0,2.3,0.0,51.7,Medium,1,0.44,0,1.5,2,0.88
+EMP0449,Employee_449,Engineering,Manager,42.33,16.77,1.0,2.4,0.0,47.0,Medium,1,0.5,0,2.3,2,1.01
+EMP0450,Employee_450,Marketing,Director,62.4,22.22,2.0,3.85,0.07,67.8,Medium,1,0.4,0,0.62,2,0.8
+EMP0451,Employee_451,HR,Senior Associate,85.67,12.66,3.0,3.9,0.0,73.4,Low,1,0.47,0,2.25,1,0.47
+EMP0452,Employee_452,Marketing,Associate,60.33,23.01,2.0,4.8,0.14,64.1,Medium,1,0.44,0,1.87,2,0.88
+EMP0453,Employee_453,Engineering,Associate,45.0,9.17,2.0,3.7,0.0,62.8,Medium,1,0.46,0,2.02,2,0.93
+EMP0454,Employee_454,Engineering,Associate,61.67,21.39,2.0,4.1,0.0,77.0,Low,1,0.42,0,1.13,1,0.42
+EMP0455,Employee_455,Product,Senior Manager,67.0,27.02,3.0,4.2,0.0,67.3,Medium,1,0.43,0,1.32,2,0.86
+EMP0456,Employee_456,Legal,Associate,57.0,27.8,3.0,3.53,0.15,68.1,Medium,1,0.44,0,1.43,2,0.87
+EMP0457,Employee_457,Sales,Team Lead,74.67,13.58,0.0,3.4,0.3,55.4,Medium,1,0.45,0,1.53,2,0.89
+EMP0458,Employee_458,Marketing,Associate,50.2,11.17,4.0,3.2,0.0,98.0,Low,1,0.52,0,2.67,1,0.52
+EMP0459,Employee_459,Sales,Team Lead,71.83,21.98,2.0,3.5,0.0,63.2,Medium,1,0.4,0,0.91,2,0.79
+EMP0460,Employee_460,Marketing,Team Lead,66.0,16.08,3.0,4.4,0.0,74.1,Low,1,0.43,0,1.33,1,0.43
+EMP0461,Employee_461,Customer Support,Manager,80.67,20.21,2.0,3.3,0.1,70.5,Low,1,0.43,0,1.72,1,0.43
+EMP0462,Employee_462,Engineering,Associate,50.0,25.24,0.0,2.2,0.0,43.9,High,1,0.52,0,1.64,3,1.57
+EMP0463,Employee_463,Legal,Associate,62.8,17.38,2.0,3.35,0.35,65.2,Medium,1,0.39,0,0.57,2,0.79
+EMP0464,Employee_464,Product,Associate,62.2,26.49,0.0,3.8,0.0,51.5,Medium,1,0.45,0,1.53,2,0.91
+EMP0465,Employee_465,Legal,Senior Manager,71.0,13.64,3.0,2.73,0.4,63.9,Medium,1,0.42,0,0.92,2,0.85
+EMP0466,Employee_466,Legal,Manager,77.0,20.66,4.0,3.3,0.57,88.1,Low,1,0.51,0,1.94,1,0.51
+EMP0467,Employee_467,Legal,Team Lead,47.0,16.96,4.0,3.4,0.0,72.6,Low,1,0.46,0,1.81,1,0.46
+EMP0468,Employee_468,Sales,Team Lead,78.0,12.61,3.0,4.0,0.42,79.8,Low,1,0.47,0,1.44,1,0.47
+EMP0469,Employee_469,Marketing,Team Lead,56.8,9.93,1.0,3.95,0.35,61.9,Medium,1,0.43,0,1.19,2,0.87
+EMP0470,Employee_470,Data & Analytics,Associate,71.75,20.24,4.0,3.1,0.28,65.4,Medium,1,0.43,0,1.23,2,0.85
+EMP0471,Employee_471,Customer Support,Senior Manager,53.0,16.63,4.0,3.7,0.44,65.7,Medium,1,0.45,0,1.23,2,0.91
+EMP0472,Employee_472,Finance,Senior Associate,63.67,26.39,2.0,2.7,0.0,59.1,Medium,1,0.41,0,1.23,2,0.83
+EMP0473,Employee_473,Legal,Senior Associate,70.4,19.09,1.0,2.1,0.0,48.9,Medium,1,0.45,0,1.77,2,0.91
+EMP0474,Employee_474,HR,Senior Associate,62.67,6.35,2.0,3.13,0.91,53.1,Medium,1,0.54,0,2.89,2,1.08
+EMP0475,Employee_475,Sales,Associate,65.17,15.32,0.0,3.7,0.0,64.0,Medium,1,0.44,0,1.53,2,0.87
+EMP0476,Employee_476,Product,Associate,71.67,21.98,1.0,4.2,0.42,78.7,Low,1,0.46,0,1.25,1,0.46
+EMP0477,Employee_477,Finance,Team Lead,65.4,34.59,2.0,5.0,0.0,74.7,Low,1,0.53,0,2.43,1,0.53
+EMP0478,Employee_478,Data & Analytics,Associate,69.0,4.0,2.0,4.4,0.0,72.2,Low,1,0.47,0,2.06,1,0.47
+EMP0479,Employee_479,HR,Team Lead,60.5,20.82,3.0,2.8,0.0,60.0,Medium,1,0.41,0,0.91,2,0.82
+EMP0480,Employee_480,Data & Analytics,Associate,60.0,18.75,2.0,4.1,0.0,70.6,Low,1,0.4,0,0.93,1,0.4
+EMP0481,Employee_481,Finance,Senior Associate,51.25,22.72,3.0,2.73,0.47,45.8,Medium,1,0.47,0,1.37,2,0.94
+EMP0482,Employee_482,Legal,Associate,58.33,9.0,2.0,2.47,0.31,48.0,Medium,1,0.45,0,1.32,2,0.89
+EMP0483,Employee_483,HR,Senior Associate,58.5,21.73,5.0,3.47,0.35,74.0,Low,1,0.46,0,1.91,1,0.46
+EMP0484,Employee_484,Data & Analytics,Team Lead,67.5,18.74,2.0,4.75,0.21,70.8,Low,1,0.44,0,1.8,1,0.44
+EMP0485,Employee_485,Product,Associate,63.33,24.03,3.0,4.25,0.49,73.4,Low,1,0.46,0,1.16,1,0.46
+EMP0486,Employee_486,Marketing,Team Lead,74.83,18.19,4.0,3.07,0.32,65.2,Medium,1,0.43,0,1.23,2,0.87
+EMP0487,Employee_487,Engineering,Senior Associate,57.0,20.08,0.0,1.57,0.57,39.9,High,-1,0.58,1,2.49,3,1.73
+EMP0488,Employee_488,Marketing,Team Lead,65.0,8.97,2.0,2.77,0.47,59.4,Medium,1,0.44,0,1.33,2,0.88
+EMP0489,Employee_489,Finance,Senior Manager,62.17,24.64,5.0,4.77,0.32,81.9,Low,1,0.51,0,1.91,1,0.51
+EMP0490,Employee_490,Sales,Team Lead,67.0,20.57,1.0,3.8,0.99,56.6,Medium,1,0.52,0,3.24,2,1.05
+EMP0491,Employee_491,Engineering,Associate,55.75,7.14,2.0,3.95,0.64,64.7,Medium,1,0.48,0,1.75,2,0.97
+EMP0492,Employee_492,Customer Support,Associate,64.5,13.48,1.0,2.5,0.0,46.7,Medium,1,0.42,0,1.23,2,0.85
+EMP0493,Employee_493,Product,Associate,72.17,19.35,2.0,3.53,0.31,63.2,Medium,1,0.4,0,0.83,2,0.8
+EMP0494,Employee_494,Customer Support,Team Lead,64.5,26.85,2.0,1.73,0.21,52.4,Medium,1,0.49,0,2.26,2,0.97
+EMP0495,Employee_495,HR,Associate,57.25,13.82,5.0,3.6,0.0,74.3,Low,1,0.46,0,1.91,1,0.46
+EMP0496,Employee_496,Engineering,Senior Associate,58.83,17.97,2.0,4.33,0.46,59.5,Medium,1,0.42,0,1.24,2,0.85
+EMP0497,Employee_497,Customer Support,Team Lead,57.5,15.72,2.0,2.87,0.32,43.6,High,1,0.43,0,1.34,3,1.3
+EMP0498,Employee_498,Customer Support,Senior Associate,64.2,19.32,0.0,3.7,0.0,54.0,Medium,1,0.44,0,1.53,2,0.88
+EMP0499,Employee_499,Data & Analytics,Manager,63.67,27.1,4.0,3.2,0.0,68.7,Medium,1,0.43,0,1.33,2,0.86
+EMP0500,Employee_500,Marketing,Associate,67.5,8.35,5.0,3.1,0.0,69.2,Medium,1,0.47,0,1.91,2,0.93
+EMP0501,Employee_501,Data & Analytics,Associate,58.33,14.19,2.0,5.0,0.0,73.2,Low,1,0.46,0,2.14,1,0.46
+EMP0502,Employee_502,Engineering,Team Lead,93.0,6.08,2.0,3.53,0.35,75.7,Low,-1,0.55,1,3.02,1,0.55
+EMP0503,Employee_503,Engineering,Senior Associate,58.0,22.52,3.0,3.57,0.21,58.6,Medium,1,0.41,0,0.66,2,0.81
+EMP0504,Employee_504,Finance,Team Lead,67.0,2.45,3.0,2.6,0.0,63.0,Medium,1,0.47,0,2.28,2,0.93
+EMP0505,Employee_505,Data & Analytics,Senior Associate,47.0,10.39,3.0,4.3,0.0,53.7,Medium,1,0.47,0,1.81,2,0.94
+EMP0506,Employee_506,Operations,Associate,73.0,15.87,3.0,2.45,0.35,79.4,Low,1,0.45,0,1.3,1,0.45
+EMP0507,Employee_507,Marketing,Manager,58.2,12.03,0.0,3.1,0.42,52.2,Medium,1,0.46,0,1.53,2,0.91
+EMP0508,Employee_508,Engineering,Manager,58.0,36.59,1.0,3.4,0.0,47.6,Medium,1,0.49,0,2.72,2,0.97
+EMP0509,Employee_509,Finance,Team Lead,44.17,19.06,3.0,2.77,0.45,46.3,Medium,1,0.49,0,2.11,2,0.99
+EMP0510,Employee_510,Data & Analytics,Associate,59.6,26.7,4.0,3.45,0.07,66.4,Medium,1,0.43,0,1.27,2,0.86
+EMP0511,Employee_511,Marketing,Team Lead,62.5,10.75,2.0,2.9,0.0,45.1,Medium,1,0.42,0,1.22,2,0.85
+EMP0512,Employee_512,Data & Analytics,Senior Associate,67.33,20.53,5.0,3.3,0.0,73.9,Low,1,0.45,0,1.91,1,0.45
+EMP0513,Employee_513,Customer Support,Associate,66.6,6.07,4.0,3.33,0.6,68.5,Medium,1,0.49,0,1.75,2,0.98
+EMP0514,Employee_514,Finance,Senior Manager,72.5,26.54,3.0,4.95,0.07,1.1,High,-1,0.61,1,4.47,3,1.83
+EMP0515,Employee_515,Marketing,Associate,61.33,14.5,5.0,4.4,0.0,83.8,Low,1,0.48,0,1.91,1,0.48
+EMP0516,Employee_516,Legal,Senior Manager,67.67,23.09,0.0,2.9,0.0,50.2,Medium,1,0.45,0,1.53,2,0.91
+EMP0517,Employee_517,HR,Senior Associate,65.8,12.64,2.0,3.2,0.0,54.1,Medium,1,0.39,0,0.91,2,0.78
+EMP0518,Employee_518,HR,Associate,71.6,12.03,5.0,3.33,0.5,62.9,Medium,1,0.47,0,1.91,2,0.95
+EMP0519,Employee_519,Marketing,Senior Associate,74.17,13.86,1.0,2.7,0.0,43.7,High,1,0.45,0,1.33,3,1.34
+EMP0520,Employee_520,Data & Analytics,Manager,72.6,19.51,1.0,2.87,0.55,52.7,Medium,1,0.45,0,1.4,2,0.9
+EMP0521,Employee_521,Finance,Team Lead,58.33,10.93,2.0,3.8,0.0,68.7,Medium,1,0.41,0,1.04,2,0.81
+EMP0522,Employee_522,HR,Manager,56.0,16.25,2.0,2.9,0.0,60.5,Medium,1,0.4,0,0.91,2,0.81
+EMP0523,Employee_523,Finance,Team Lead,87.8,13.46,2.0,2.8,0.14,73.3,Low,1,0.48,0,2.47,1,0.48
+EMP0524,Employee_524,HR,Team Lead,51.4,18.11,0.0,3.3,0.0,50.1,Medium,1,0.46,0,1.53,2,0.93
+EMP0525,Employee_525,Customer Support,Manager,63.33,12.5,2.0,3.0,0.99,70.6,Low,1,0.53,0,3.24,1,0.53
+EMP0526,Employee_526,Data & Analytics,Associate,63.25,11.95,2.0,3.4,0.0,64.0,Medium,1,0.39,0,0.91,2,0.78
+EMP0527,Employee_527,Customer Support,Senior Associate,54.0,8.54,0.0,4.47,0.68,55.9,Medium,1,0.53,0,1.94,2,1.07
+EMP0528,Employee_528,HR,Associate,83.0,16.2,3.0,3.1,0.28,61.5,Medium,1,0.46,0,1.97,2,0.91
+EMP0529,Employee_529,Legal,Director,71.4,24.46,2.0,2.7,0.0,60.6,Medium,1,0.42,0,0.96,2,0.83
+EMP0530,Employee_530,Legal,Senior Manager,53.0,18.69,1.0,2.55,0.21,43.3,High,1,0.45,0,1.36,3,1.34
+EMP0531,Employee_531,Customer Support,Associate,70.8,10.89,0.0,2.35,0.49,48.1,Medium,1,0.5,0,1.53,2,0.99
+EMP0532,Employee_532,Legal,Team Lead,73.5,12.57,2.0,2.8,0.14,67.6,Medium,1,0.42,0,0.97,2,0.84
+EMP0533,Employee_533,HR,Senior Manager,70.83,13.91,3.0,3.3,0.0,71.5,Low,1,0.41,0,0.91,1,0.41
+EMP0534,Employee_534,Marketing,Associate,59.4,22.31,3.0,3.1,0.85,63.9,Medium,1,0.5,0,2.64,2,0.99
+EMP0535,Employee_535,Customer Support,Team Lead,69.8,19.74,3.0,3.5,0.0,66.0,Medium,1,0.4,0,0.91,2,0.79
+EMP0536,Employee_536,Sales,Senior Manager,65.5,16.38,1.0,3.15,0.07,58.0,Medium,1,0.4,0,0.84,2,0.8
+EMP0537,Employee_537,Data & Analytics,Associate,56.33,20.74,2.0,3.45,0.35,73.1,Low,1,0.42,0,0.84,1,0.42
+EMP0538,Employee_538,Legal,Team Lead,68.75,20.06,2.0,3.0,0.0,67.4,Medium,1,0.4,0,0.91,2,0.79
+EMP0539,Employee_539,Legal,Associate,70.0,19.04,2.0,3.5,0.46,60.9,Medium,1,0.41,0,1.01,2,0.81
+EMP0540,Employee_540,Engineering,Senior Manager,56.0,22.34,5.0,2.73,0.25,64.8,Medium,1,0.47,0,1.91,2,0.94
+EMP0541,Employee_541,Operations,Director,58.33,27.54,1.0,2.7,0.5,51.0,Medium,1,0.46,0,1.39,2,0.92
+EMP0542,Employee_542,Customer Support,Senior Manager,67.0,23.0,1.0,3.83,0.55,60.4,Medium,1,0.43,0,1.4,2,0.86
+EMP0543,Employee_543,Product,Senior Associate,56.0,13.58,1.0,2.6,0.0,60.4,Medium,1,0.42,0,1.1,2,0.84
+EMP0544,Employee_544,Legal,Manager,73.0,5.72,1.0,3.43,0.15,60.9,Medium,1,0.45,0,1.8,2,0.9
+EMP0545,Employee_545,Data & Analytics,Manager,68.33,21.55,6.0,3.4,0.28,76.4,Low,1,0.48,0,2.6,1,0.48
+EMP0546,Employee_546,Sales,Senior Associate,50.5,19.34,1.0,2.45,0.78,50.3,Medium,1,0.52,0,2.35,2,1.03
+EMP0547,Employee_547,Legal,Manager,51.0,15.59,2.0,4.03,0.42,58.8,Medium,1,0.43,0,1.39,2,0.86
+EMP0548,Employee_548,Sales,Associate,77.2,15.07,4.0,3.95,0.64,71.6,Low,1,0.49,0,1.75,1,0.49
+EMP0549,Employee_549,HR,Team Lead,52.67,27.05,2.0,2.3,0.1,43.7,High,1,0.48,0,1.5,3,1.45
+EMP0550,Employee_550,HR,Associate,67.6,14.89,5.0,4.1,0.53,75.0,Low,1,0.48,0,1.91,1,0.48
+EMP0551,Employee_551,Operations,Associate,70.67,7.09,2.0,2.1,0.0,54.3,Medium,1,0.47,0,1.77,2,0.94
+EMP0552,Employee_552,Marketing,Associate,64.8,14.96,4.0,2.3,0.28,62.5,Medium,1,0.45,0,1.5,2,0.9
+EMP0553,Employee_553,Product,Team Lead,54.33,10.07,2.0,4.33,0.64,54.4,Medium,1,0.48,0,1.75,2,0.96
+EMP0554,Employee_554,Engineering,Senior Associate,66.33,9.07,0.0,2.43,0.4,56.1,Medium,1,0.47,0,1.53,2,0.95
+EMP0555,Employee_555,Operations,Team Lead,62.33,27.02,4.0,4.7,0.0,76.7,Low,1,0.48,0,1.74,1,0.48
+EMP0556,Employee_556,Finance,Associate,80.5,18.43,1.0,3.1,0.0,64.4,Medium,1,0.43,0,1.71,2,0.86
+EMP0557,Employee_557,Engineering,Senior Associate,66.25,14.38,1.0,4.0,0.0,59.8,Medium,1,0.4,0,0.91,2,0.81
+EMP0558,Employee_558,Customer Support,Senior Associate,89.0,8.83,2.0,4.23,0.21,79.9,Low,1,0.53,0,2.6,1,0.53
+EMP0559,Employee_559,Data & Analytics,Manager,61.5,8.6,1.0,4.5,0.0,62.1,Medium,1,0.45,0,1.47,2,0.9
+EMP0560,Employee_560,Finance,Senior Associate,61.5,12.56,3.0,3.6,0.0,63.1,Medium,1,0.4,0,0.91,2,0.79
+EMP0561,Employee_561,Finance,Team Lead,72.33,27.17,2.0,4.0,0.0,59.8,Medium,1,0.42,0,1.34,2,0.83
+EMP0562,Employee_562,Operations,Manager,51.2,18.42,1.0,3.9,0.0,65.4,Medium,1,0.43,0,1.37,2,0.86
+EMP0563,Employee_563,Marketing,Team Lead,59.2,24.95,3.0,3.4,0.0,65.3,Medium,1,0.41,0,1.02,2,0.82
+EMP0564,Employee_564,Operations,Associate,86.5,10.75,2.0,3.33,0.96,65.9,Medium,-1,0.57,1,3.11,2,1.14
+EMP0565,Employee_565,Customer Support,Associate,74.0,16.46,5.0,3.05,0.21,68.6,Medium,1,0.45,0,1.91,2,0.9
+EMP0566,Employee_566,Legal,Manager,50.6,20.29,2.0,3.35,0.07,50.8,Medium,1,0.43,0,1.43,2,0.85
+EMP0567,Employee_567,Legal,Associate,52.0,4.32,2.0,3.73,0.64,53.0,Medium,1,0.51,0,2.01,2,1.01
+EMP0568,Employee_568,Marketing,Manager,54.83,29.25,1.0,2.6,0.0,34.9,High,1,0.51,0,1.98,3,1.53
+EMP0569,Employee_569,Customer Support,Senior Associate,65.25,16.66,5.0,4.55,0.21,89.0,Low,1,0.51,0,2.01,1,0.51
+EMP0570,Employee_570,Marketing,Senior Manager,62.0,8.54,0.0,1.55,0.64,44.1,High,-1,0.57,1,2.51,3,1.72
+EMP0571,Employee_571,Sales,Manager,64.33,25.8,2.0,2.95,0.35,56.4,Medium,1,0.41,0,1.14,2,0.82
+EMP0572,Employee_572,Legal,Director,71.0,12.08,6.0,3.9,0.26,83.4,Low,1,0.51,0,2.6,1,0.51
+EMP0573,Employee_573,Finance,Senior Associate,42.67,20.44,1.0,3.8,0.0,54.4,Medium,1,0.48,0,2.27,2,0.95
+EMP0574,Employee_574,Product,Manager,50.83,22.4,2.0,4.05,0.21,56.7,Medium,1,0.43,0,1.41,2,0.85
+EMP0575,Employee_575,Data & Analytics,Senior Associate,87.33,18.58,4.0,4.3,0.0,93.3,Low,-1,0.56,1,2.42,1,0.56
+EMP0576,Employee_576,Customer Support,Senior Associate,45.33,22.3,5.0,3.53,0.7,59.4,Medium,-1,0.55,1,2.03,2,1.1
+EMP0577,Employee_577,Engineering,Team Lead,55.0,19.92,0.0,2.85,0.07,38.2,High,1,0.49,0,1.73,3,1.48
+EMP0578,Employee_578,Marketing,Manager,46.33,10.97,3.0,2.4,0.0,56.6,Medium,1,0.47,0,1.88,2,0.95
+EMP0579,Employee_579,Data & Analytics,Director,57.5,17.69,2.0,4.05,0.35,64.0,Medium,1,0.41,0,0.86,2,0.82
+EMP0580,Employee_580,Engineering,Manager,62.33,13.05,1.0,2.9,0.0,47.8,Medium,1,0.42,0,1.03,2,0.84
+EMP0581,Employee_581,Data & Analytics,Senior Associate,75.4,21.87,0.0,4.3,0.0,64.1,Medium,1,0.48,0,1.53,2,0.95
+EMP0582,Employee_582,Product,Senior Associate,78.0,10.82,1.0,2.3,0.28,54.7,Medium,1,0.46,0,1.5,2,0.93
+EMP0583,Employee_583,Engineering,Team Lead,63.0,21.82,1.0,4.3,0.5,61.3,Medium,1,0.44,0,1.2,2,0.87
+EMP0584,Employee_584,Operations,Associate,64.6,15.18,2.0,2.13,0.31,47.4,Medium,1,0.44,0,1.73,2,0.88
+EMP0585,Employee_585,HR,Associate,60.17,11.37,4.0,3.57,0.29,63.4,Medium,1,0.43,0,1.23,2,0.86
+EMP0586,Employee_586,Operations,Senior Associate,62.4,26.91,2.0,2.4,0.14,58.5,Medium,1,0.43,0,1.37,2,0.86
+EMP0587,Employee_587,Legal,Associate,58.0,45.9,1.0,1.5,0.0,38.9,High,-1,0.61,1,4.09,3,1.84
+EMP0588,Employee_588,HR,Associate,57.0,18.96,1.0,3.83,0.21,62.6,Medium,1,0.41,0,0.84,2,0.81
+EMP0589,Employee_589,Operations,Associate,66.17,16.86,4.0,2.4,0.0,53.0,Medium,1,0.44,0,1.37,2,0.89
+EMP0590,Employee_590,HR,Associate,54.0,29.44,4.0,2.3,0.0,61.1,Medium,1,0.49,0,1.67,2,0.99
+EMP0591,Employee_591,HR,Associate,74.0,19.46,0.0,3.53,0.4,51.9,Medium,1,0.47,0,1.53,2,0.93
+EMP0592,Employee_592,Finance,Director,65.5,14.06,3.0,4.8,0.0,86.2,Low,1,0.47,0,1.87,1,0.47
+EMP0593,Employee_593,Marketing,Senior Associate,63.75,24.35,0.0,2.8,0.0,51.7,Medium,1,0.45,0,1.53,2,0.91
+EMP0594,Employee_594,Marketing,Senior Associate,63.33,14.6,6.0,2.07,0.21,57.4,Medium,1,0.51,0,2.6,2,1.02
+EMP0595,Employee_595,Finance,Team Lead,70.0,16.89,1.0,3.25,0.21,62.9,Medium,1,0.4,0,0.84,2,0.79
+EMP0596,Employee_596,Data & Analytics,Associate,87.33,20.23,3.0,3.17,0.75,66.2,Medium,1,0.53,0,2.42,2,1.06
+EMP0597,Employee_597,Sales,Senior Manager,57.8,14.2,6.0,3.4,0.0,68.8,Medium,1,0.48,0,2.6,2,0.95
+EMP0598,Employee_598,Data & Analytics,Manager,67.33,4.93,3.0,3.9,0.0,58.1,Medium,1,0.45,0,1.92,2,0.91
+EMP0599,Employee_599,Engineering,Associate,58.0,15.0,2.0,3.85,0.07,52.2,Medium,1,0.41,0,0.7,2,0.82
+EMP0600,Employee_600,Engineering,Senior Associate,62.2,18.67,4.0,3.7,0.0,66.7,Medium,1,0.41,0,1.23,2,0.81

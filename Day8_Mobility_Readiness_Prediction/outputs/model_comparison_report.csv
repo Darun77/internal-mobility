@@ -1,0 +1,5 @@
+Model,Task,Accuracy,F1_Score,Precision,Recall,R2_Score,MAE
+Logistic Regression (baseline),Classification,0.7916666666666666,0.7746425209740128,0.7741094584286804,0.7916666666666666,,
+Random Forest Classifier (main model),Classification,0.775,0.7488809665280253,0.7556469617549991,0.775,,
+Linear Regression (baseline),Regression,,,,,0.4939274221328205,6.0413283916515
+Random Forest Regressor (main model),Regression,,,,,0.3452536553518615,7.185845012429211

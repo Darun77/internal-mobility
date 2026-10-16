@@ -1,0 +1,11 @@
+Department,Employee_Count,Avg_Rating,Total_Trainings,Mobility_Apps,Avg_Readiness,Trainings_Per_Emp,Mobility_App_Rate_%
+Customer Support,65,3.39,147,18,61.45,2.26,27.7
+Data & Analytics,58,3.45,150,26,62.44,2.59,44.8
+Engineering,73,3.37,147,27,59.3,2.01,37.0
+Finance,59,3.39,121,19,62.07,2.05,32.2
+HR,61,3.4,149,26,61.17,2.44,42.6
+Legal,66,3.37,138,32,62.8,2.09,48.5
+Marketing,69,3.3,149,36,60.82,2.16,52.2
+Operations,48,3.32,112,18,64.48,2.33,37.5
+Product,55,3.47,125,17,63.9,2.27,30.9
+Sales,46,3.52,94,21,59.62,2.04,45.7
